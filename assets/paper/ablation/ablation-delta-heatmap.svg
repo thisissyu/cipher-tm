@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+<title id="title">Ablation score differences by dataset</title>
+<desc id="desc">Two heatmap panels compare six ablations on 20NG and NYT. Cells show metric-score differences multiplied by 100 relative to each dataset&#x27;s full run. For ratio metrics, these values are numerically equal to percentage-point changes; TC is not a percentage.</desc>
+<defs>
+          <linearGradient id="delta-scale" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop class="negative-stop" offset="0%" />
+            <stop class="zero-stop" offset="50%" />
+            <stop class="positive-stop" offset="100%" />
+          </linearGradient>
+        </defs>
+        <style>
+          .canvas { fill:#ffffff; }
+          text { fill:#111111; font-family:"Times New Roman","Liberation Serif",Times,serif; }
+          .panel-title { font-size:20px; font-weight:400; }
+          .metric-label,.variant-label,.cell-value,.legend-label { font-size:18px; font-weight:400; }
+          .heat-cell { stroke:#ffffff; stroke-width:0.65; shape-rendering:crispEdges; }
+          .cell-negative { fill:#b2182b; }
+          .cell-positive { fill:#2166ac; }
+          .cell-zero { fill:#f7f7f7; }
+          .cell-value { font-variant-numeric:tabular-nums; }
+          .cell-value.inverse { fill:#ffffff; }
+          .negative-stop { stop-color:#b2182b; }
+          .zero-stop { stop-color:#f7f7f7; }
+          .positive-stop { stop-color:#2166ac; }
+          .legend-border { fill:none; stroke:#111111; stroke-width:0.6; }
+        </style>
+<rect class="canvas" x="0" y="0" width="1000" height="430" />
+<text class="panel-title" x="310.00" y="25" text-anchor="middle">(a) 20NG</text>
+<text class="metric-label" x="166.00" y="58" text-anchor="middle">TC</text>
+<text class="metric-label" x="238.00" y="58" text-anchor="middle">Purity</text>
+<text class="metric-label" x="310.00" y="58" text-anchor="middle">NMI</text>
+<text class="metric-label" x="382.00" y="58" text-anchor="middle">Accuracy</text>
+<text class="metric-label" x="454.00" y="45" text-anchor="middle"><tspan x="454.00" y="45">Macro-</tspan><tspan x="454.00" dy="17">F1</tspan></text>
+<text class="variant-label" x="120.00" y="97.50" text-anchor="end">numerical</text>
+<rect class="heat-cell cell-negative" x="130.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.284" data-dataset="20ng" data-variant="numerical" data-metric="TC" data-delta="-2.16"><title>20NG, numerical, TC: -2.16 delta score times 100</title></rect>
+<text class="cell-value" x="166.00" y="98.00" text-anchor="middle" pointer-events="none">-2.16</text>
+<rect class="heat-cell cell-negative" x="202.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.742" data-dataset="20ng" data-variant="numerical" data-metric="Purity" data-delta="-11.71"><title>20NG, numerical, Purity: -11.71 delta score times 100</title></rect>
+<text class="cell-value inverse" x="238.00" y="98.00" text-anchor="middle" pointer-events="none">-11.71</text>
+<rect class="heat-cell cell-negative" x="274.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.781" data-dataset="20ng" data-variant="numerical" data-metric="NMI" data-delta="-12.528"><title>20NG, numerical, NMI: -12.53 delta score times 100</title></rect>
+<text class="cell-value inverse" x="310.00" y="98.00" text-anchor="middle" pointer-events="none">-12.53</text>
+<rect class="heat-cell cell-negative" x="346.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.387" data-dataset="20ng" data-variant="numerical" data-metric="Accuracy" data-delta="-4.315"><title>20NG, numerical, Accuracy: -4.32 delta score times 100</title></rect>
+<text class="cell-value" x="382.00" y="98.00" text-anchor="middle" pointer-events="none">-4.32</text>
+<rect class="heat-cell cell-negative" x="418.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.322" data-dataset="20ng" data-variant="numerical" data-metric="Macro-F1" data-delta="-2.953"><title>20NG, numerical, Macro-F1: -2.95 delta score times 100</title></rect>
+<text class="cell-value" x="454.00" y="98.00" text-anchor="middle" pointer-events="none">-2.95</text>
+<text class="variant-label" x="120.00" y="140.50" text-anchor="end">graph-only</text>
+<rect class="heat-cell cell-negative" x="130.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.244" data-dataset="20ng" data-variant="graph-only" data-metric="TC" data-delta="-1.336"><title>20NG, graph-only, TC: -1.34 delta score times 100</title></rect>
+<text class="cell-value" x="166.00" y="141.00" text-anchor="middle" pointer-events="none">-1.34</text>
+<rect class="heat-cell cell-negative" x="202.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.519" data-dataset="20ng" data-variant="graph-only" data-metric="Purity" data-delta="-7.063"><title>20NG, graph-only, Purity: -7.06 delta score times 100</title></rect>
+<text class="cell-value" x="238.00" y="141.00" text-anchor="middle" pointer-events="none">-7.06</text>
+<rect class="heat-cell cell-negative" x="274.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.553" data-dataset="20ng" data-variant="graph-only" data-metric="NMI" data-delta="-7.773"><title>20NG, graph-only, NMI: -7.77 delta score times 100</title></rect>
+<text class="cell-value" x="310.00" y="141.00" text-anchor="middle" pointer-events="none">-7.77</text>
+<rect class="heat-cell cell-negative" x="346.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.293" data-dataset="20ng" data-variant="graph-only" data-metric="Accuracy" data-delta="-2.363"><title>20NG, graph-only, Accuracy: -2.36 delta score times 100</title></rect>
+<text class="cell-value" x="382.00" y="141.00" text-anchor="middle" pointer-events="none">-2.36</text>
+<rect class="heat-cell cell-negative" x="418.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.209" data-dataset="20ng" data-variant="graph-only" data-metric="Macro-F1" data-delta="-0.603"><title>20NG, graph-only, Macro-F1: -0.60 delta score times 100</title></rect>
+<text class="cell-value" x="454.00" y="141.00" text-anchor="middle" pointer-events="none">-0.60</text>
+<text class="variant-label" x="120.00" y="183.50" text-anchor="end">train-only</text>
+<rect class="heat-cell cell-zero" x="130.00" y="158.00" width="72.00" height="43.00" fill-opacity="1.000" data-dataset="20ng" data-variant="train-only" data-metric="TC" data-delta="0"><title>20NG, train-only, TC: 0.00 delta score times 100</title></rect>
+<text class="cell-value" x="166.00" y="184.00" text-anchor="middle" pointer-events="none">0.00</text>
+<rect class="heat-cell cell-negative" x="202.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.353" data-dataset="20ng" data-variant="train-only" data-metric="Purity" data-delta="-3.611"><title>20NG, train-only, Purity: -3.61 delta score times 100</title></rect>
+<text class="cell-value" x="238.00" y="184.00" text-anchor="middle" pointer-events="none">-3.61</text>
+<rect class="heat-cell cell-negative" x="274.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.436" data-dataset="20ng" data-variant="train-only" data-metric="NMI" data-delta="-5.342"><title>20NG, train-only, NMI: -5.34 delta score times 100</title></rect>
+<text class="cell-value" x="310.00" y="184.00" text-anchor="middle" pointer-events="none">-5.34</text>
+<rect class="heat-cell cell-negative" x="346.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.399" data-dataset="20ng" data-variant="train-only" data-metric="Accuracy" data-delta="-4.567"><title>20NG, train-only, Accuracy: -4.57 delta score times 100</title></rect>
+<text class="cell-value" x="382.00" y="184.00" text-anchor="middle" pointer-events="none">-4.57</text>
+<rect class="heat-cell cell-negative" x="418.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.289" data-dataset="20ng" data-variant="train-only" data-metric="Macro-F1" data-delta="-2.27"><title>20NG, train-only, Macro-F1: -2.27 delta score times 100</title></rect>
+<text class="cell-value" x="454.00" y="184.00" text-anchor="middle" pointer-events="none">-2.27</text>
+<text class="variant-label" x="120.00" y="226.50" text-anchor="end">strict-inductive</text>
+<rect class="heat-cell cell-zero" x="130.00" y="201.00" width="72.00" height="43.00" fill-opacity="1.000" data-dataset="20ng" data-variant="strict-inductive" data-metric="TC" data-delta="0"><title>20NG, strict-inductive, TC: 0.00 delta score times 100</title></rect>
+<text class="cell-value" x="166.00" y="227.00" text-anchor="middle" pointer-events="none">0.00</text>
+<rect class="heat-cell cell-negative" x="202.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.515" data-dataset="20ng" data-variant="strict-inductive" data-metric="Purity" data-delta="-6.97"><title>20NG, strict-inductive, Purity: -6.97 delta score times 100</title></rect>
+<text class="cell-value" x="238.00" y="227.00" text-anchor="middle" pointer-events="none">-6.97</text>
+<rect class="heat-cell cell-negative" x="274.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.560" data-dataset="20ng" data-variant="strict-inductive" data-metric="NMI" data-delta="-7.916"><title>20NG, strict-inductive, NMI: -7.92 delta score times 100</title></rect>
+<text class="cell-value" x="310.00" y="227.00" text-anchor="middle" pointer-events="none">-7.92</text>
+<rect class="heat-cell cell-negative" x="346.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.349" data-dataset="20ng" data-variant="strict-inductive" data-metric="Accuracy" data-delta="-3.518"><title>20NG, strict-inductive, Accuracy: -3.52 delta score times 100</title></rect>
+<text class="cell-value" x="382.00" y="227.00" text-anchor="middle" pointer-events="none">-3.52</text>
+<rect class="heat-cell cell-negative" x="418.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.236" data-dataset="20ng" data-variant="strict-inductive" data-metric="Macro-F1" data-delta="-1.159"><title>20NG, strict-inductive, Macro-F1: -1.16 delta score times 100</title></rect>
+<text class="cell-value" x="454.00" y="227.00" text-anchor="middle" pointer-events="none">-1.16</text>
+<text class="variant-label" x="120.00" y="269.50" text-anchor="end">no-graph</text>
+<rect class="heat-cell cell-negative" x="130.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.256" data-dataset="20ng" data-variant="no-graph" data-metric="TC" data-delta="-1.575"><title>20NG, no-graph, TC: -1.58 delta score times 100</title></rect>
+<text class="cell-value" x="166.00" y="270.00" text-anchor="middle" pointer-events="none">-1.58</text>
+<rect class="heat-cell cell-negative" x="202.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.295" data-dataset="20ng" data-variant="no-graph" data-metric="Purity" data-delta="-2.403"><title>20NG, no-graph, Purity: -2.40 delta score times 100</title></rect>
+<text class="cell-value" x="238.00" y="270.00" text-anchor="middle" pointer-events="none">-2.40</text>
+<rect class="heat-cell cell-negative" x="274.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.262" data-dataset="20ng" data-variant="no-graph" data-metric="NMI" data-delta="-1.717"><title>20NG, no-graph, NMI: -1.72 delta score times 100</title></rect>
+<text class="cell-value" x="310.00" y="270.00" text-anchor="middle" pointer-events="none">-1.72</text>
+<rect class="heat-cell cell-negative" x="346.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.479" data-dataset="20ng" data-variant="no-graph" data-metric="Accuracy" data-delta="-6.227"><title>20NG, no-graph, Accuracy: -6.23 delta score times 100</title></rect>
+<text class="cell-value" x="382.00" y="270.00" text-anchor="middle" pointer-events="none">-6.23</text>
+<rect class="heat-cell cell-negative" x="418.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.479" data-dataset="20ng" data-variant="no-graph" data-metric="Macro-F1" data-delta="-6.227"><title>20NG, no-graph, Macro-F1: -6.23 delta score times 100</title></rect>
+<text class="cell-value" x="454.00" y="270.00" text-anchor="middle" pointer-events="none">-6.23</text>
+<text class="variant-label" x="120.00" y="312.50" text-anchor="end">no-ontology</text>
+<rect class="heat-cell cell-negative" x="130.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.210" data-dataset="20ng" data-variant="no-ontology" data-metric="TC" data-delta="-0.622"><title>20NG, no-ontology, TC: -0.62 delta score times 100</title></rect>
+<text class="cell-value" x="166.00" y="313.00" text-anchor="middle" pointer-events="none">-0.62</text>
+<rect class="heat-cell cell-negative" x="202.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.190" data-dataset="20ng" data-variant="no-ontology" data-metric="Purity" data-delta="-0.199"><title>20NG, no-ontology, Purity: -0.20 delta score times 100</title></rect>
+<text class="cell-value" x="238.00" y="313.00" text-anchor="middle" pointer-events="none">-0.20</text>
+<rect class="heat-cell cell-negative" x="274.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.186" data-dataset="20ng" data-variant="no-ontology" data-metric="NMI" data-delta="-0.127"><title>20NG, no-ontology, NMI: -0.13 delta score times 100</title></rect>
+<text class="cell-value" x="310.00" y="313.00" text-anchor="middle" pointer-events="none">-0.13</text>
+<rect class="heat-cell cell-negative" x="346.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.215" data-dataset="20ng" data-variant="no-ontology" data-metric="Accuracy" data-delta="-0.735"><title>20NG, no-ontology, Accuracy: -0.73 delta score times 100</title></rect>
+<text class="cell-value" x="382.00" y="313.00" text-anchor="middle" pointer-events="none">-0.73</text>
+<rect class="heat-cell cell-negative" x="418.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.290" data-dataset="20ng" data-variant="no-ontology" data-metric="Macro-F1" data-delta="-2.298"><title>20NG, no-ontology, Macro-F1: -2.30 delta score times 100</title></rect>
+<text class="cell-value" x="454.00" y="313.00" text-anchor="middle" pointer-events="none">-2.30</text>
+<text class="panel-title" x="795.00" y="25" text-anchor="middle">(b) NYT</text>
+<text class="metric-label" x="651.00" y="58" text-anchor="middle">TC</text>
+<text class="metric-label" x="723.00" y="58" text-anchor="middle">Purity</text>
+<text class="metric-label" x="795.00" y="58" text-anchor="middle">NMI</text>
+<text class="metric-label" x="867.00" y="58" text-anchor="middle">Accuracy</text>
+<text class="metric-label" x="939.00" y="45" text-anchor="middle"><tspan x="939.00" y="45">Macro-</tspan><tspan x="939.00" dy="17">F1</tspan></text>
+<text class="variant-label" x="605.00" y="97.50" text-anchor="end">numerical</text>
+<rect class="heat-cell cell-negative" x="615.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.245" data-dataset="nyt" data-variant="numerical" data-metric="TC" data-delta="-1.345"><title>NYT, numerical, TC: -1.34 delta score times 100</title></rect>
+<text class="cell-value" x="651.00" y="98.00" text-anchor="middle" pointer-events="none">-1.34</text>
+<rect class="heat-cell cell-negative" x="687.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.305" data-dataset="nyt" data-variant="numerical" data-metric="Purity" data-delta="-2.614"><title>NYT, numerical, Purity: -2.61 delta score times 100</title></rect>
+<text class="cell-value" x="723.00" y="98.00" text-anchor="middle" pointer-events="none">-2.61</text>
+<rect class="heat-cell cell-negative" x="759.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.322" data-dataset="nyt" data-variant="numerical" data-metric="NMI" data-delta="-2.952"><title>NYT, numerical, NMI: -2.95 delta score times 100</title></rect>
+<text class="cell-value" x="795.00" y="98.00" text-anchor="middle" pointer-events="none">-2.95</text>
+<rect class="heat-cell cell-negative" x="831.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.331" data-dataset="nyt" data-variant="numerical" data-metric="Accuracy" data-delta="-3.156"><title>NYT, numerical, Accuracy: -3.16 delta score times 100</title></rect>
+<text class="cell-value" x="867.00" y="98.00" text-anchor="middle" pointer-events="none">-3.16</text>
+<rect class="heat-cell cell-negative" x="903.00" y="72.00" width="72.00" height="43.00" fill-opacity="0.285" data-dataset="nyt" data-variant="numerical" data-metric="Macro-F1" data-delta="-2.18"><title>NYT, numerical, Macro-F1: -2.18 delta score times 100</title></rect>
+<text class="cell-value" x="939.00" y="98.00" text-anchor="middle" pointer-events="none">-2.18</text>
+<text class="variant-label" x="605.00" y="140.50" text-anchor="end">graph-only</text>
+<rect class="heat-cell cell-negative" x="615.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.182" data-dataset="nyt" data-variant="graph-only" data-metric="TC" data-delta="-0.049"><title>NYT, graph-only, TC: -0.05 delta score times 100</title></rect>
+<text class="cell-value" x="651.00" y="141.00" text-anchor="middle" pointer-events="none">-0.05</text>
+<rect class="heat-cell cell-negative" x="687.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.452" data-dataset="nyt" data-variant="graph-only" data-metric="Purity" data-delta="-5.665"><title>NYT, graph-only, Purity: -5.66 delta score times 100</title></rect>
+<text class="cell-value" x="723.00" y="141.00" text-anchor="middle" pointer-events="none">-5.66</text>
+<rect class="heat-cell cell-negative" x="759.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.371" data-dataset="nyt" data-variant="graph-only" data-metric="NMI" data-delta="-3.971"><title>NYT, graph-only, NMI: -3.97 delta score times 100</title></rect>
+<text class="cell-value" x="795.00" y="141.00" text-anchor="middle" pointer-events="none">-3.97</text>
+<rect class="heat-cell cell-negative" x="831.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.298" data-dataset="nyt" data-variant="graph-only" data-metric="Accuracy" data-delta="-2.455"><title>NYT, graph-only, Accuracy: -2.45 delta score times 100</title></rect>
+<text class="cell-value" x="867.00" y="141.00" text-anchor="middle" pointer-events="none">-2.45</text>
+<rect class="heat-cell cell-negative" x="903.00" y="115.00" width="72.00" height="43.00" fill-opacity="0.349" data-dataset="nyt" data-variant="graph-only" data-metric="Macro-F1" data-delta="-3.526"><title>NYT, graph-only, Macro-F1: -3.53 delta score times 100</title></rect>
+<text class="cell-value" x="939.00" y="141.00" text-anchor="middle" pointer-events="none">-3.53</text>
+<text class="variant-label" x="605.00" y="183.50" text-anchor="end">train-only</text>
+<rect class="heat-cell cell-zero" x="615.00" y="158.00" width="72.00" height="43.00" fill-opacity="1.000" data-dataset="nyt" data-variant="train-only" data-metric="TC" data-delta="0"><title>NYT, train-only, TC: 0.00 delta score times 100</title></rect>
+<text class="cell-value" x="651.00" y="184.00" text-anchor="middle" pointer-events="none">0.00</text>
+<rect class="heat-cell cell-negative" x="687.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.295" data-dataset="nyt" data-variant="train-only" data-metric="Purity" data-delta="-2.397"><title>NYT, train-only, Purity: -2.40 delta score times 100</title></rect>
+<text class="cell-value" x="723.00" y="184.00" text-anchor="middle" pointer-events="none">-2.40</text>
+<rect class="heat-cell cell-negative" x="759.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.295" data-dataset="nyt" data-variant="train-only" data-metric="NMI" data-delta="-2.393"><title>NYT, train-only, NMI: -2.39 delta score times 100</title></rect>
+<text class="cell-value" x="795.00" y="184.00" text-anchor="middle" pointer-events="none">-2.39</text>
+<rect class="heat-cell cell-negative" x="831.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.477" data-dataset="nyt" data-variant="train-only" data-metric="Accuracy" data-delta="-6.196"><title>NYT, train-only, Accuracy: -6.20 delta score times 100</title></rect>
+<text class="cell-value" x="867.00" y="184.00" text-anchor="middle" pointer-events="none">-6.20</text>
+<rect class="heat-cell cell-negative" x="903.00" y="158.00" width="72.00" height="43.00" fill-opacity="0.858" data-dataset="nyt" data-variant="train-only" data-metric="Macro-F1" data-delta="-14.12"><title>NYT, train-only, Macro-F1: -14.12 delta score times 100</title></rect>
+<text class="cell-value inverse" x="939.00" y="184.00" text-anchor="middle" pointer-events="none">-14.12</text>
+<text class="variant-label" x="605.00" y="226.50" text-anchor="end">strict-inductive</text>
+<rect class="heat-cell cell-zero" x="615.00" y="201.00" width="72.00" height="43.00" fill-opacity="1.000" data-dataset="nyt" data-variant="strict-inductive" data-metric="TC" data-delta="0"><title>NYT, strict-inductive, TC: 0.00 delta score times 100</title></rect>
+<text class="cell-value" x="651.00" y="227.00" text-anchor="middle" pointer-events="none">0.00</text>
+<rect class="heat-cell cell-negative" x="687.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.253" data-dataset="nyt" data-variant="strict-inductive" data-metric="Purity" data-delta="-1.525"><title>NYT, strict-inductive, Purity: -1.52 delta score times 100</title></rect>
+<text class="cell-value" x="723.00" y="227.00" text-anchor="middle" pointer-events="none">-1.52</text>
+<rect class="heat-cell cell-negative" x="759.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.280" data-dataset="nyt" data-variant="strict-inductive" data-metric="NMI" data-delta="-2.087"><title>NYT, strict-inductive, NMI: -2.09 delta score times 100</title></rect>
+<text class="cell-value" x="795.00" y="227.00" text-anchor="middle" pointer-events="none">-2.09</text>
+<rect class="heat-cell cell-negative" x="831.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.191" data-dataset="nyt" data-variant="strict-inductive" data-metric="Accuracy" data-delta="-0.234"><title>NYT, strict-inductive, Accuracy: -0.23 delta score times 100</title></rect>
+<text class="cell-value" x="867.00" y="227.00" text-anchor="middle" pointer-events="none">-0.23</text>
+<rect class="heat-cell cell-negative" x="903.00" y="201.00" width="72.00" height="43.00" fill-opacity="0.262" data-dataset="nyt" data-variant="strict-inductive" data-metric="Macro-F1" data-delta="-1.714"><title>NYT, strict-inductive, Macro-F1: -1.71 delta score times 100</title></rect>
+<text class="cell-value" x="939.00" y="227.00" text-anchor="middle" pointer-events="none">-1.71</text>
+<text class="variant-label" x="605.00" y="269.50" text-anchor="end">no-graph</text>
+<rect class="heat-cell cell-negative" x="615.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.253" data-dataset="nyt" data-variant="no-graph" data-metric="TC" data-delta="-1.526"><title>NYT, no-graph, TC: -1.53 delta score times 100</title></rect>
+<text class="cell-value" x="651.00" y="270.00" text-anchor="middle" pointer-events="none">-1.53</text>
+<rect class="heat-cell cell-negative" x="687.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.206" data-dataset="nyt" data-variant="no-graph" data-metric="Purity" data-delta="-0.545"><title>NYT, no-graph, Purity: -0.54 delta score times 100</title></rect>
+<text class="cell-value" x="723.00" y="270.00" text-anchor="middle" pointer-events="none">-0.54</text>
+<rect class="heat-cell cell-negative" x="759.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.219" data-dataset="nyt" data-variant="no-graph" data-metric="NMI" data-delta="-0.804"><title>NYT, no-graph, NMI: -0.80 delta score times 100</title></rect>
+<text class="cell-value" x="795.00" y="270.00" text-anchor="middle" pointer-events="none">-0.80</text>
+<rect class="heat-cell cell-negative" x="831.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.473" data-dataset="nyt" data-variant="no-graph" data-metric="Accuracy" data-delta="-6.097"><title>NYT, no-graph, Accuracy: -6.10 delta score times 100</title></rect>
+<text class="cell-value" x="867.00" y="270.00" text-anchor="middle" pointer-events="none">-6.10</text>
+<rect class="heat-cell cell-negative" x="903.00" y="244.00" width="72.00" height="43.00" fill-opacity="0.471" data-dataset="nyt" data-variant="no-graph" data-metric="Macro-F1" data-delta="-6.061"><title>NYT, no-graph, Macro-F1: -6.06 delta score times 100</title></rect>
+<text class="cell-value" x="939.00" y="270.00" text-anchor="middle" pointer-events="none">-6.06</text>
+<text class="variant-label" x="605.00" y="312.50" text-anchor="end">no-ontology</text>
+<rect class="heat-cell cell-negative" x="615.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.200" data-dataset="nyt" data-variant="no-ontology" data-metric="TC" data-delta="-0.421"><title>NYT, no-ontology, TC: -0.42 delta score times 100</title></rect>
+<text class="cell-value" x="651.00" y="313.00" text-anchor="middle" pointer-events="none">-0.42</text>
+<rect class="heat-cell cell-negative" x="687.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.253" data-dataset="nyt" data-variant="no-ontology" data-metric="Purity" data-delta="-1.525"><title>NYT, no-ontology, Purity: -1.52 delta score times 100</title></rect>
+<text class="cell-value" x="723.00" y="313.00" text-anchor="middle" pointer-events="none">-1.52</text>
+<rect class="heat-cell cell-negative" x="759.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.196" data-dataset="nyt" data-variant="no-ontology" data-metric="NMI" data-delta="-0.329"><title>NYT, no-ontology, NMI: -0.33 delta score times 100</title></rect>
+<text class="cell-value" x="795.00" y="313.00" text-anchor="middle" pointer-events="none">-0.33</text>
+<rect class="heat-cell cell-negative" x="831.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.293" data-dataset="nyt" data-variant="no-ontology" data-metric="Accuracy" data-delta="-2.345"><title>NYT, no-ontology, Accuracy: -2.34 delta score times 100</title></rect>
+<text class="cell-value" x="867.00" y="313.00" text-anchor="middle" pointer-events="none">-2.34</text>
+<rect class="heat-cell cell-negative" x="903.00" y="287.00" width="72.00" height="43.00" fill-opacity="0.319" data-dataset="nyt" data-variant="no-ontology" data-metric="Macro-F1" data-delta="-2.893"><title>NYT, no-ontology, Macro-F1: -2.89 delta score times 100</title></rect>
+<text class="cell-value" x="939.00" y="313.00" text-anchor="middle" pointer-events="none">-2.89</text>
+<rect x="340.0" y="354.0" width="320.0" height="14.0" fill="url(#delta-scale)" />
+<rect class="legend-border" x="340.0" y="354.0" width="320.0" height="14.0" />
+<text class="legend-label" x="340.0" y="386.0" text-anchor="middle">−15</text>
+<text class="legend-label" x="500.0" y="386.0" text-anchor="middle">0</text>
+<text class="legend-label" x="660.0" y="386.0" text-anchor="middle">+15</text>
+<text class="legend-label" x="500.0" y="412.0" text-anchor="middle">Δ score ×100</text>
+</svg>

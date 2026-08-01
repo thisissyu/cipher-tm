@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Inference stages for test-59</title>
+<desc id="desc">Three compact aligned panels compare probabilities for five fixed topics before LLM anchoring, after LLM anchoring, and after graph diffusion. Orange diamonds identify the LLM-selected topic and a blue square identifies the final topic.</desc>
+<style>
+          text { fill:#111111; font-family:"Times New Roman","Liberation Serif",Times,serif; }
+          .canvas { fill:#ffffff; }
+          .panel-title { font-size:21px; font-weight:500; }
+          .topic-label { font-size:17px; font-weight:400; }
+          .axis-label,.arrow-label,.legend-label { fill:#333333; font-size:17px; font-weight:400; }
+          .probability { font-size:17px; font-weight:400; font-variant-numeric:tabular-nums; }
+          .axis { stroke:#333333; stroke-width:1; }
+          .grid { stroke:#d7d7d7; stroke-width:0.8; }
+          .bar-track { fill:#ededed; }
+          .bar-other { fill:#8f9599; }
+          .bar-llm,.marker-llm { fill:#d55e00; }
+          .bar-final,.marker-final { fill:#0072b2; }
+          .arrow { stroke:#333333; stroke-width:1.2; fill:none; }
+          .arrowhead { fill:#333333; }
+        </style>
+<defs>
+          <marker id="arrowhead" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+            <path class="arrowhead" d="M 0 0 L 7 3.5 L 0 7 Z" />
+          </marker>
+        </defs>
+<rect class="canvas" width="1200" height="390" />
+<text class="panel-title" x="173.00" y="23" text-anchor="middle">(a) Numerical</text>
+<text class="axis-label" x="216.50" y="47" text-anchor="middle">Probability</text>
+<line class="axis" x1="165.0" y1="76.0" x2="268.0" y2="76.0" />
+<line class="grid" x1="165.00" y1="76.0" x2="165.00" y2="344" />
+<text class="axis-label" x="165.00" y="69.0" text-anchor="middle">0.0</text>
+<line class="grid" x1="216.50" y1="76.0" x2="216.50" y2="344" />
+<text class="axis-label" x="216.50" y="69.0" text-anchor="middle">0.5</text>
+<line class="grid" x1="268.00" y1="76.0" x2="268.00" y2="344" />
+<text class="axis-label" x="268.00" y="69.0" text-anchor="middle">1.0</text>
+<text class="topic-label" x="12.00" y="117.00">T36 Party politics</text>
+<rect class="bar-track" x="165.0" y="102.0" width="103.0" height="20" />
+<rect class="bar-other" x="165.0" y="102.0" width="13.71" height="20" />
+<text class="probability" x="334.0" y="118.0" text-anchor="end">0.133</text>
+<text class="topic-label" x="12.00" y="171.00">T34 Team sports</text>
+<rect class="bar-track" x="165.0" y="156.0" width="103.0" height="20" />
+<rect class="bar-llm" x="165.0" y="156.0" width="10.21" height="20" />
+<text class="probability" x="334.0" y="172.0" text-anchor="end">0.099</text>
+<path class="marker-llm" d="M 155.00 161.00 L 160.00 166.00 L 155.00 171.00 L 150.00 166.00 Z" />
+<text class="topic-label" x="12.00" y="225.00">T22 Election polling</text>
+<rect class="bar-track" x="165.0" y="210.0" width="103.0" height="20" />
+<rect class="bar-other" x="165.0" y="210.0" width="9.92" height="20" />
+<text class="probability" x="334.0" y="226.0" text-anchor="end">0.096</text>
+<text class="topic-label" x="12.00" y="279.00">T19 Tennis</text>
+<rect class="bar-track" x="165.0" y="264.0" width="103.0" height="20" />
+<rect class="bar-other" x="165.0" y="264.0" width="4.63" height="20" />
+<text class="probability" x="334.0" y="280.0" text-anchor="end">0.045</text>
+<text class="topic-label" x="12.00" y="333.00">T18 Journalism</text>
+<rect class="bar-track" x="165.0" y="318.0" width="103.0" height="20" />
+<rect class="bar-other" x="165.0" y="318.0" width="3.04" height="20" />
+<text class="probability" x="334.0" y="334.0" text-anchor="end">0.030</text>
+<line class="arrow" x1="342.0" y1="186.0" x2="428.0" y2="186.0" marker-end="url(#arrowhead)" />
+<text class="arrow-label" x="385.00" y="178.00" text-anchor="middle">LLM c=0.82</text>
+<text class="panel-title" x="600.00" y="23" text-anchor="middle">(b) LLM-anchored</text>
+<text class="axis-label" x="643.50" y="47" text-anchor="middle">Probability</text>
+<line class="axis" x1="592.0" y1="76.0" x2="695.0" y2="76.0" />
+<line class="grid" x1="592.00" y1="76.0" x2="592.00" y2="344" />
+<text class="axis-label" x="592.00" y="69.0" text-anchor="middle">0.0</text>
+<line class="grid" x1="643.50" y1="76.0" x2="643.50" y2="344" />
+<text class="axis-label" x="643.50" y="69.0" text-anchor="middle">0.5</text>
+<line class="grid" x1="695.00" y1="76.0" x2="695.00" y2="344" />
+<text class="axis-label" x="695.00" y="69.0" text-anchor="middle">1.0</text>
+<text class="topic-label" x="439.00" y="117.00">T36 Party politics</text>
+<rect class="bar-track" x="592.0" y="102.0" width="103.0" height="20" />
+<rect class="bar-other" x="592.0" y="102.0" width="3.59" height="20" />
+<text class="probability" x="761.0" y="118.0" text-anchor="end">0.035</text>
+<text class="topic-label" x="439.00" y="171.00">T34 Team sports</text>
+<rect class="bar-track" x="592.0" y="156.0" width="103.0" height="20" />
+<rect class="bar-llm" x="592.0" y="156.0" width="78.69" height="20" />
+<text class="probability" x="761.0" y="172.0" text-anchor="end">0.764</text>
+<path class="marker-llm" d="M 582.00 161.00 L 587.00 166.00 L 582.00 171.00 L 577.00 166.00 Z" />
+<text class="topic-label" x="439.00" y="225.00">T22 Election polling</text>
+<rect class="bar-track" x="592.0" y="210.0" width="103.0" height="20" />
+<rect class="bar-other" x="592.0" y="210.0" width="2.60" height="20" />
+<text class="probability" x="761.0" y="226.0" text-anchor="end">0.025</text>
+<text class="topic-label" x="439.00" y="279.00">T19 Tennis</text>
+<rect class="bar-track" x="592.0" y="264.0" width="103.0" height="20" />
+<rect class="bar-other" x="592.0" y="264.0" width="1.21" height="20" />
+<text class="probability" x="761.0" y="280.0" text-anchor="end">0.012</text>
+<text class="topic-label" x="439.00" y="333.00">T18 Journalism</text>
+<rect class="bar-track" x="592.0" y="318.0" width="103.0" height="20" />
+<rect class="bar-other" x="592.0" y="318.0" width="0.80" height="20" />
+<text class="probability" x="761.0" y="334.0" text-anchor="end">0.008</text>
+<line class="arrow" x1="769.0" y1="186.0" x2="855.0" y2="186.0" marker-end="url(#arrowhead)" />
+<text class="arrow-label" x="812.00" y="178.00" text-anchor="middle">KNN α=0.82</text>
+<text class="panel-title" x="1027.00" y="23" text-anchor="middle">(c) Graph-final</text>
+<text class="axis-label" x="1070.50" y="47" text-anchor="middle">Probability</text>
+<line class="axis" x1="1019.0" y1="76.0" x2="1122.0" y2="76.0" />
+<line class="grid" x1="1019.00" y1="76.0" x2="1019.00" y2="344" />
+<text class="axis-label" x="1019.00" y="69.0" text-anchor="middle">0.0</text>
+<line class="grid" x1="1070.50" y1="76.0" x2="1070.50" y2="344" />
+<text class="axis-label" x="1070.50" y="69.0" text-anchor="middle">0.5</text>
+<line class="grid" x1="1122.00" y1="76.0" x2="1122.00" y2="344" />
+<text class="axis-label" x="1122.00" y="69.0" text-anchor="middle">1.0</text>
+<text class="topic-label" x="866.00" y="117.00">T36 Party politics</text>
+<rect class="bar-track" x="1019.0" y="102.0" width="103.0" height="20" />
+<rect class="bar-other" x="1019.0" y="102.0" width="5.76" height="20" />
+<text class="probability" x="1188.0" y="118.0" text-anchor="end">0.056</text>
+<text class="topic-label" x="866.00" y="171.00">T34 Team sports</text>
+<rect class="bar-track" x="1019.0" y="156.0" width="103.0" height="20" />
+<rect class="bar-final" x="1019.0" y="156.0" width="27.42" height="20" />
+<text class="probability" x="1188.0" y="172.0" text-anchor="end">0.266</text>
+<rect class="marker-final" x="1004.00" y="161.00" width="10" height="10" />
+<text class="topic-label" x="866.00" y="225.00">T22 Election polling</text>
+<rect class="bar-track" x="1019.0" y="210.0" width="103.0" height="20" />
+<rect class="bar-other" x="1019.0" y="210.0" width="9.32" height="20" />
+<text class="probability" x="1188.0" y="226.0" text-anchor="end">0.091</text>
+<text class="topic-label" x="866.00" y="279.00">T19 Tennis</text>
+<rect class="bar-track" x="1019.0" y="264.0" width="103.0" height="20" />
+<rect class="bar-other" x="1019.0" y="264.0" width="1.33" height="20" />
+<text class="probability" x="1188.0" y="280.0" text-anchor="end">0.013</text>
+<text class="topic-label" x="866.00" y="333.00">T18 Journalism</text>
+<rect class="bar-track" x="1019.0" y="318.0" width="103.0" height="20" />
+<rect class="bar-other" x="1019.0" y="318.0" width="3.81" height="20" />
+<text class="probability" x="1188.0" y="334.0" text-anchor="end">0.037</text>
+<path class="marker-llm" d="M 465 367.00 L 470 372.00 L 465 377.00 L 460 372.00 Z" />
+<text class="legend-label" x="477" y="375.00">LLM-selected (a,b)</text>
+<rect class="marker-final" x="625" y="367.00" width="10" height="10" />
+<text class="legend-label" x="642" y="375.00">Final (c)</text>
+</svg>

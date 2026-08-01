@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cipher-tm"
+version = "0.2.0"
+description = "Core-method reference implementation for CIPHER-TM"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { text = "Apache-2.0" }
+authors = [{ name = "CIPHER-TM Authors" }]
+dependencies = [
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.4,<2",
+  "scipy>=1.11,<2",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3,<10",
+  "ruff>=0.9,<1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["cipher_tm*"]
+namespaces = false
+
+[tool.uv]
+package = true
+required-version = ">=0.10.0"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]

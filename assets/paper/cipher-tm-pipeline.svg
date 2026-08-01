@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="980" viewBox="0 0 1440 980" role="img" aria-labelledby="title desc">
+  <title id="title">CIPHER-TM modeling pipeline</title>
+  <desc id="desc">An unlabeled corpus passes through numerical topic geometry, LLM-induced discriminative contracts, candidate-constrained LLM adjudication, graph propagation with prototype feedback, and globally constrained lexical decoding. Each stage is represented by a distinct visual metaphor rather than a repeated process box.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#596774"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3f73ad"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2d8179"/>
+    </marker>
+    <style>
+      .serif { font-family: "Times New Roman", "Liberation Serif", serif; fill: #202a35; }
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .stage-title { font-size: 31px; font-weight: 600; text-anchor: middle; }
+      .detail { font-size: 27px; fill: #44515e; text-anchor: middle; }
+      .output { font-size: 26px; font-style: italic; font-variant-ligatures: none; font-kerning: none; fill: #2e3945; text-anchor: middle; }
+      .micro { font-size: 21px; fill: #586674; text-anchor: middle; }
+      .index { font-size: 18px; font-weight: 700; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
+      .flow { fill: none; stroke: #596774; stroke-width: 2.4; marker-end: url(#arrow); }
+      .dependency { fill: none; stroke: #3f73ad; stroke-width: 2.1; stroke-dasharray: 7 5; marker-end: url(#arrow-blue); }
+      .thin { fill: none; stroke: #8995a1; stroke-width: 1.7; }
+      .icon-line { fill: none; stroke: #596774; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1440" height="980" fill="#ffffff"/>
+
+  <!-- Unlabeled corpus -->
+  <g aria-label="Unlabeled corpus">
+    <rect x="43" y="230" width="70" height="88" rx="6" fill="#ffffff" stroke="#b2bbc5" stroke-width="1.8"/>
+    <rect x="53" y="220" width="70" height="88" rx="6" fill="#ffffff" stroke="#8f9ba7" stroke-width="1.8"/>
+    <path d="M69 244 H107 M69 261 H107 M69 278 H98" class="icon-line" opacity="0.65"/>
+    <text class="serif" x="83" y="348" font-size="27" text-anchor="middle">Unlabeled</text>
+    <text class="serif" x="83" y="378" font-size="27" text-anchor="middle">corpus</text>
+  </g>
+  <path class="flow" d="M130 267 H176"/>
+
+  <!-- Stage 1: geometry as an embedding/cluster map -->
+  <g aria-label="Stage 1, numerical topic geometry">
+    <circle cx="205" cy="100" r="16" fill="#3f73ad"/>
+    <text class="sans index" x="205" y="100">1</text>
+    <text class="serif stage-title" x="340" y="94">Numerical topic</text>
+    <text class="serif stage-title" x="340" y="128">geometry</text>
+    <line x1="231" y1="145" x2="456" y2="145" stroke="#3f73ad" stroke-width="3"/>
+
+    <ellipse cx="340" cy="246" rx="132" ry="91" fill="#edf4fb"/>
+    <path d="M246 301 V190 M246 301 H440" stroke="#8997a5" stroke-width="1.8" fill="none"/>
+    <path d="M246 264 H440 M246 227 H440 M294 190 V301 M342 190 V301 M390 190 V301" stroke="#cbd4dd" stroke-width="1.1" fill="none"/>
+
+    <path d="M270 254 C278 218, 321 209, 336 238 C347 263, 319 281, 289 276 Z" fill="#d9e8f6" stroke="#7ca3cc" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <circle cx="281" cy="251" r="6" fill="#6e98c3"/><circle cx="300" cy="229" r="6" fill="#6e98c3"/><circle cx="319" cy="250" r="6" fill="#6e98c3"/><circle cx="297" cy="268" r="6" fill="#6e98c3"/>
+    <circle cx="302" cy="249" r="10" fill="#3f73ad" stroke="#ffffff" stroke-width="3"/>
+
+    <path d="M350 212 C365 183, 416 190, 424 222 C429 247, 397 258, 369 246 Z" fill="#f7e8d7" stroke="#d49a5f" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <circle cx="365" cy="218" r="6" fill="#d18a43"/><circle cx="388" cy="201" r="6" fill="#d18a43"/><circle cx="411" cy="222" r="6" fill="#d18a43"/><circle cx="384" cy="240" r="6" fill="#d18a43"/>
+    <circle cx="389" cy="220" r="10" fill="#c97925" stroke="#ffffff" stroke-width="3"/>
+
+    <path d="M335 275 C352 250, 405 263, 405 294 C394 314, 352 314, 331 297 Z" fill="#e4efec" stroke="#76a9a2" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <circle cx="349" cy="288" r="6" fill="#55968e"/><circle cx="370" cy="276" r="6" fill="#55968e"/><circle cx="392" cy="291" r="6" fill="#55968e"/><circle cx="369" cy="304" r="6" fill="#55968e"/>
+    <circle cx="370" cy="290" r="10" fill="#2d8179" stroke="#ffffff" stroke-width="3"/>
+
+    <text class="serif detail" x="340" y="350">TF-IDF + SVD</text>
+    <text class="serif detail" x="340" y="381">spherical k-means</text>
+    <rect x="180" y="398" width="320" height="36" rx="18" fill="#dce9f5"/>
+    <text class="serif output" x="340" y="424">initial posteriors + centers</text>
+  </g>
+
+  <path class="flow" d="M480 246 H548"/>
+
+  <!-- Stage 2: an induced semantic contract -->
+  <g aria-label="Stage 2, discriminative topic-contract induction">
+    <circle cx="565" cy="100" r="16" fill="#c97925"/>
+    <text class="sans index" x="565" y="100">2</text>
+    <text class="serif stage-title" x="720" y="94">Discriminative</text>
+    <text class="serif stage-title" x="720" y="128">topic contracts</text>
+    <line x1="591" y1="145" x2="844" y2="145" stroke="#c97925" stroke-width="3"/>
+
+    <circle cx="592" cy="234" r="35" fill="#f8eadb" stroke="#c97925" stroke-width="2"/>
+    <path d="M584 221 L592 208 L600 221 L613 229 L600 237 L592 250 L584 237 L571 229 Z" fill="#c97925" opacity="0.9"/>
+    <text class="sans" x="592" y="282" font-size="20" font-weight="700" fill="#9f5c1c" text-anchor="middle">LLM</text>
+    <path class="flow" d="M628 234 H657"/>
+
+    <rect x="670" y="174" width="178" height="142" rx="8" fill="#ffffff" stroke="#c8a883" stroke-width="1.8"/>
+    <path d="M811 174 V208 H848" fill="#f5dfc5" stroke="#c8a883" stroke-width="1.5"/>
+    <rect x="687" y="189" width="62" height="24" rx="12" fill="#f2dcc2"/>
+    <text class="serif" x="718" y="207" font-size="21" font-style="italic" text-anchor="middle">C<tspan baseline-shift="sub" font-size="15">k</tspan></text>
+    <circle cx="691" cy="235" r="10" fill="#e2f1ed"/><path d="M686 235 L690 239 L697 230" fill="none" stroke="#2d8179" stroke-width="2.3" stroke-linecap="round"/>
+    <text class="serif" x="709" y="241" font-size="18" fill="#586674">positive cues</text>
+    <circle cx="691" cy="264" r="10" fill="#f8e6e3"/><path d="M686 259 L696 269 M696 259 L686 269" stroke="#b65b50" stroke-width="2.1" stroke-linecap="round"/>
+    <text class="serif" x="709" y="270" font-size="18" fill="#586674">exclusion cues</text>
+    <circle cx="691" cy="293" r="10" fill="#e8edf7"/><circle cx="688" cy="293" r="5" fill="none" stroke="#657aa8" stroke-width="1.6"/><circle cx="695" cy="293" r="5" fill="none" stroke="#657aa8" stroke-width="1.6"/>
+    <text class="serif" x="709" y="299" font-size="18" fill="#586674">confusable topics</text>
+
+    <text class="serif detail" x="720" y="350">LLM induction from</text>
+    <text class="serif detail" x="720" y="381">exemplars + salient terms</text>
+    <rect x="600" y="398" width="240" height="36" rx="18" fill="#f3e1ca"/>
+    <text class="serif output" x="720" y="424">semantic contract C<tspan baseline-shift="sub" font-size="18">k</tspan></text>
+  </g>
+
+  <path class="flow" d="M865 246 H948"/>
+
+  <!-- Stage 3: agent screen, bounded candidates, and confidence -->
+  <g aria-label="Stage 3, candidate-constrained LLM adjudication">
+    <circle cx="970" cy="92" r="16" fill="#c97925"/>
+    <text class="sans index" x="970" y="92">3</text>
+    <text class="serif stage-title" x="1170" y="86">Candidate-constrained</text>
+    <text class="serif stage-title" x="1170" y="120">LLM adjudication</text>
+    <line x1="996" y1="145" x2="1360" y2="145" stroke="#c97925" stroke-width="3"/>
+
+    <rect x="975" y="190" width="48" height="64" rx="5" fill="#ffffff" stroke="#9ba6b1" stroke-width="1.7"/>
+    <path d="M986 207 H1012 M986 220 H1012 M986 233 H1006" stroke="#a5afb8" stroke-width="1.8"/>
+    <path class="flow" d="M1028 222 H1057"/>
+
+    <rect x="1064" y="166" width="170" height="116" rx="12" fill="#fffaf4" stroke="#c97925" stroke-width="2.2"/>
+    <circle cx="1149" cy="185" r="4" fill="#c97925"/>
+    <path d="M1149 181 V170 M1143 170 H1155" stroke="#c97925" stroke-width="2" stroke-linecap="round"/>
+    <rect x="1107" y="196" width="84" height="54" rx="16" fill="#f4e2cc" stroke="#c97925" stroke-width="1.8"/>
+    <circle cx="1133" cy="221" r="5" fill="#4a5764"/><circle cx="1165" cy="221" r="5" fill="#4a5764"/>
+    <path d="M1136 237 Q1149 246 1162 237" fill="none" stroke="#4a5764" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1101 259 H1197 M1137 282 V295 H1161 V282" class="icon-line"/>
+    <text class="sans" x="1149" y="313" font-size="20" font-weight="700" fill="#9f5c1c" text-anchor="middle">LLM agent</text>
+
+    <path class="flow" d="M1240 222 H1262"/>
+    <rect x="1269" y="172" width="104" height="126" rx="9" fill="#ffffff" stroke="#b4bdc6" stroke-width="1.7"/>
+    <text class="sans" x="1321" y="194" font-size="17" font-weight="700" fill="#566472" text-anchor="middle">CANDIDATES</text>
+    <rect x="1282" y="205" width="78" height="23" rx="11" fill="#eef2f6"/><text class="serif" x="1321" y="222" font-size="19" text-anchor="middle">T<tspan baseline-shift="sub" font-size="13">a</tspan></text>
+    <rect x="1282" y="234" width="78" height="27" rx="13" fill="#f2dcc2" stroke="#c97925" stroke-width="1.4"/><text class="serif" x="1312" y="253" font-size="19" font-weight="600" text-anchor="middle">T<tspan baseline-shift="sub" font-size="13">b</tspan></text><path d="M1340 247 L1345 252 L1353 242" fill="none" stroke="#2d8179" stroke-width="2.4" stroke-linecap="round"/>
+    <rect x="1282" y="267" width="78" height="23" rx="11" fill="#eef2f6"/><text class="serif" x="1321" y="284" font-size="19" text-anchor="middle">T<tspan baseline-shift="sub" font-size="13">c</tspan></text>
+
+    <text class="serif micro" x="1255" y="323">confidence</text>
+    <rect x="1190" y="334" width="170" height="12" rx="6" fill="#e5e9ed"/>
+    <rect x="1190" y="334" width="132" height="12" rx="6" fill="#c97925"/>
+    <circle cx="1322" cy="340" r="7" fill="#ffffff" stroke="#c97925" stroke-width="2"/>
+
+    <text class="serif detail" x="1170" y="370">document text +</text>
+    <text class="serif detail" x="1170" y="401">top-m candidate contracts</text>
+    <rect x="1000" y="416" width="340" height="36" rx="18" fill="#f3e1ca"/>
+    <text class="serif output" x="1170" y="442">confidence-weighted anchors</text>
+  </g>
+
+  <!-- Global geometry-dependent candidate path; drawn above Stage 3 so the terminal arrow remains visible -->
+  <path class="dependency" d="M470 230 V42 H1378 V172 H1348"/>
+  <text class="serif" x="800" y="27" font-size="27" fill="#315f93" text-anchor="middle">geometry-derived top-m candidates</text>
+
+  <!-- Anchors flow down to corpus graph -->
+  <path class="flow" d="M1170 456 V500 H930 V640 H825"/>
+  <text class="serif" x="1050" y="493" font-size="25" fill="#697580" text-anchor="middle">anchored posterior</text>
+
+  <!-- Geometry also supplies the neighbor graph -->
+  <path class="dependency" d="M340 438 V500 H460 V675 H510"/>
+  <text class="serif" x="590" y="493" font-size="24" fill="#315f93" text-anchor="middle">geometry-derived kNN graph</text>
+
+  <!-- Stage 4: explicit graph diffusion and prototype feedback -->
+  <g aria-label="Stage 4, graph propagation and prototype feedback">
+    <circle cx="500" cy="560" r="16" fill="#2d8179"/>
+    <text class="sans index" x="500" y="560">4</text>
+    <text class="serif stage-title" x="705" y="554">Graph propagation</text>
+    <text class="serif stage-title" x="705" y="588">+ prototype feedback</text>
+    <line x1="526" y1="605" x2="884" y2="605" stroke="#2d8179" stroke-width="3"/>
+
+    <ellipse cx="684" cy="690" rx="176" ry="83" fill="#edf7f5"/>
+    <path d="M550 694 L594 645 L651 663 L699 630 L752 667 L810 641 M594 645 L621 715 L684 736 L752 667 M651 663 L684 736 M550 694 L621 715 M621 715 L752 667 M684 736 L785 722 L810 641 M699 630 L785 722" stroke="#92aaa7" stroke-width="2" fill="none"/>
+    <circle cx="550" cy="694" r="10" fill="#ffffff" stroke="#2d8179" stroke-width="3"/>
+    <circle cx="594" cy="645" r="9" fill="#c97925" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="651" cy="663" r="9" fill="#ffffff" stroke="#2d8179" stroke-width="3"/>
+    <circle cx="699" cy="630" r="9" fill="#c97925" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="752" cy="667" r="10" fill="#ffffff" stroke="#2d8179" stroke-width="3"/>
+    <circle cx="810" cy="641" r="9" fill="#ffffff" stroke="#2d8179" stroke-width="3"/>
+    <circle cx="621" cy="715" r="9" fill="#ffffff" stroke="#2d8179" stroke-width="3"/>
+    <circle cx="684" cy="736" r="9" fill="#c97925" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="785" cy="722" r="9" fill="#ffffff" stroke="#2d8179" stroke-width="3"/>
+    <circle cx="594" cy="645" r="17" fill="none" stroke="#c97925" stroke-width="1.4" opacity="0.45"/>
+    <circle cx="699" cy="630" r="17" fill="none" stroke="#c97925" stroke-width="1.4" opacity="0.45"/>
+    <circle cx="684" cy="736" r="17" fill="none" stroke="#c97925" stroke-width="1.4" opacity="0.45"/>
+    <path d="M603 652 Q624 667 642 662 M707 638 Q729 651 744 664 M677 729 Q650 719 630 716" fill="none" stroke="#2d8179" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+
+    <path d="M850 664 L874 688 L850 712 L826 688 Z" fill="#dcefeb" stroke="#2d8179" stroke-width="2"/>
+    <circle cx="850" cy="688" r="7" fill="#2d8179"/>
+    <path d="M802 641 C872 609, 904 641, 879 675" fill="none" stroke="#2d8179" stroke-width="2" marker-end="url(#arrow-teal)"/>
+    <path d="M832 707 C808 737, 779 738, 764 726" fill="none" stroke="#2d8179" stroke-width="2" marker-end="url(#arrow-teal)"/>
+    <text class="serif micro" x="850" y="743">prototype</text>
+
+    <text class="serif detail" x="705" y="802">kNN diffusion</text>
+    <text class="serif detail" x="705" y="832">training-time prototype update</text>
+    <rect x="550" y="844" width="310" height="36" rx="18" fill="#dcefeb"/>
+    <text class="serif output" x="705" y="870">refined topic mixtures Q</text>
+  </g>
+
+  <path class="flow" d="M904 690 H976"/>
+
+  <!-- Stage 5: globally constrained allocation of lexical descriptors -->
+  <g aria-label="Stage 5, constrained lexical decoding">
+    <circle cx="995" cy="560" r="16" fill="#7a5aa6"/>
+    <text class="sans index" x="995" y="560">5</text>
+    <text class="serif stage-title" x="1190" y="554">Constrained lexical</text>
+    <text class="serif stage-title" x="1190" y="588">decoding</text>
+    <line x1="1021" y1="605" x2="1360" y2="605" stroke="#7a5aa6" stroke-width="3"/>
+
+    <g aria-label="Bag of words and topic mixtures">
+      <path d="M1009 658 H1081 L1071 737 H1019 Z" fill="#f3eff8" stroke="#7a5aa6" stroke-width="2"/>
+      <path d="M1015 658 Q1045 633 1075 658" fill="none" stroke="#7a5aa6" stroke-width="2"/>
+      <rect x="1025" y="672" width="20" height="48" rx="3" fill="#c8b7dc"/><rect x="1050" y="689" width="18" height="31" rx="3" fill="#987eb8"/>
+      <text class="serif micro" x="1045" y="762">Q + word counts</text>
+    </g>
+    <path class="flow" d="M1090 696 H1120"/>
+
+    <g aria-label="Non-overlapping topic word sets">
+      <rect x="1130" y="633" width="74" height="114" rx="8" fill="#f3eff8" stroke="#a890c2" stroke-width="1.5"/>
+      <rect x="1214" y="633" width="74" height="114" rx="8" fill="#f3eff8" stroke="#a890c2" stroke-width="1.5"/>
+      <rect x="1298" y="633" width="74" height="114" rx="8" fill="#f3eff8" stroke="#a890c2" stroke-width="1.5"/>
+      <rect x="1130" y="633" width="74" height="28" rx="8" fill="#8063a4"/><rect x="1214" y="633" width="74" height="28" rx="8" fill="#8063a4"/><rect x="1298" y="633" width="74" height="28" rx="8" fill="#8063a4"/>
+      <text class="serif" x="1167" y="654" font-size="21" fill="#ffffff" font-style="italic" text-anchor="middle">W1</text>
+      <text class="serif" x="1251" y="654" font-size="21" fill="#ffffff" font-style="italic" text-anchor="middle">W2</text>
+      <text class="serif" x="1335" y="654" font-size="21" fill="#ffffff" font-style="italic" text-anchor="middle">W3</text>
+      <rect x="1141" y="673" width="52" height="19" rx="9" fill="#ded4ea"/><text class="serif" x="1167" y="688" font-size="17" text-anchor="middle">w<tspan baseline-shift="sub" font-size="12">a</tspan></text>
+      <rect x="1141" y="702" width="52" height="19" rx="9" fill="#ded4ea"/><text class="serif" x="1167" y="717" font-size="17" text-anchor="middle">w<tspan baseline-shift="sub" font-size="12">b</tspan></text>
+      <rect x="1225" y="673" width="52" height="19" rx="9" fill="#ded4ea"/><text class="serif" x="1251" y="688" font-size="17" text-anchor="middle">w<tspan baseline-shift="sub" font-size="12">c</tspan></text>
+      <rect x="1225" y="702" width="52" height="19" rx="9" fill="#ded4ea"/><text class="serif" x="1251" y="717" font-size="17" text-anchor="middle">w<tspan baseline-shift="sub" font-size="12">d</tspan></text>
+      <rect x="1309" y="673" width="52" height="19" rx="9" fill="#ded4ea"/><text class="serif" x="1335" y="688" font-size="17" text-anchor="middle">w<tspan baseline-shift="sub" font-size="12">e</tspan></text>
+      <rect x="1309" y="702" width="52" height="19" rx="9" fill="#ded4ea"/><text class="serif" x="1335" y="717" font-size="17" text-anchor="middle">w<tspan baseline-shift="sub" font-size="12">f</tspan></text>
+      <path d="M1124 759 H1378" stroke="#7a5aa6" stroke-width="1.7"/>
+      <path d="M1124 753 V765 M1378 753 V765" stroke="#7a5aa6" stroke-width="1.7"/>
+      <circle cx="1251" cy="759" r="12" fill="#ffffff" stroke="#7a5aa6" stroke-width="1.7"/>
+      <path d="M1246 759 L1250 763 L1257 754" fill="none" stroke="#7a5aa6" stroke-width="2.1" stroke-linecap="round"/>
+      <text class="serif micro" x="1251" y="788">global one-use constraint</text>
+    </g>
+
+    <text class="serif detail" x="1190" y="818">salience, exclusivity, coherence</text>
+    <rect x="1030" y="844" width="320" height="36" rx="18" fill="#e8e0f1"/>
+    <text class="serif output" x="1190" y="870">topic descriptors {W<tspan baseline-shift="sub" font-size="18">k</tspan>}</text>
+  </g>
+
+  <!-- Fixed outputs are evaluated only after modeling -->
+  <path d="M705 884 V894 H1025 M1190 884 V894 H1025 V906" fill="none" stroke="#8a96a1" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <g aria-label="External labels enter only for post-hoc evaluation">
+    <path d="M426 938 H510" fill="none" stroke="#8a96a1" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+    <path d="M376 916 H426 L447 938 L426 960 H376 Z" fill="#ffffff" stroke="#8a96a1" stroke-width="1.7"/>
+    <circle cx="389" cy="938" r="5" fill="none" stroke="#8a96a1" stroke-width="1.6"/>
+    <text class="serif" x="411" y="944" font-size="20" fill="#65727e" text-anchor="middle">y</text>
+    <text class="serif" x="338" y="945" font-size="23" fill="#65727e" text-anchor="end">external labels</text>
+
+    <rect x="518" y="910" width="864" height="56" rx="11" fill="#fafbfc" stroke="#8a96a1" stroke-width="1.7" stroke-dasharray="7 5"/>
+    <circle cx="556" cy="938" r="15" fill="#edf0f3" stroke="#8a96a1" stroke-width="1.5"/>
+    <path d="M550 938 L555 943 L563 932" fill="none" stroke="#596774" stroke-width="2.2" stroke-linecap="round"/>
+    <text class="serif" x="950" y="938" font-size="29" font-weight="600" text-anchor="middle">Post-hoc evaluation of fixed Q and W</text>
+  </g>
+</svg>

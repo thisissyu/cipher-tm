@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1850" viewBox="0 0 1280 1850" role="img" aria-labelledby="title desc">
+<title id="title">nyt no-graph weighted topic-word clouds</title>
+<desc id="desc">Ten selected K=50 topics. A higher label-blind theta-weighted token proportion always has a larger font; every term is at least 16 pixels.</desc>
+<style>
+          .paper-background { fill:#ffffff; }
+          .topic-cell { fill:#ffffff; stroke:#d7dce2; stroke-width:1; }
+          .panel-label,.term { font-family:Georgia,"Times New Roman",serif; fill:#17212b; }
+          .panel-label { font-size:17px; font-weight:600; }
+          .term { font-weight:400; text-anchor:middle; dominant-baseline:alphabetic; }
+        </style>
+<rect class="paper-background" x="0" y="0" width="1280" height="1850" />
+<g role="group" aria-label="panel a, topic 3" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="18.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="39.00">(a) T3</text>
+<text class="term" data-term="trump" data-proportion="0.017000261748042304" data-rotation="0" x="330.00" y="228.12" style="font-size:68.000000000px">trump</text>
+<text class="term" data-term="president" data-proportion="0.010664955092625958" data-rotation="0" x="320.20" y="290.52" style="font-size:55.493091278px">president</text>
+<text class="term" data-term="campaign" data-proportion="0.0040786839842383519" data-rotation="0" x="318.85" y="160.83" style="font-size:37.315770291px">campaign</text>
+<text class="term" data-term="white" data-proportion="0.0037619196268447561" data-rotation="0" x="337.77" y="117.64" style="font-size:36.148705152px">white</text>
+<text class="term" data-term="clinton" data-proportion="0.0032731268561929983" data-rotation="90" x="451.76" y="166.02" style="font-size:34.246756861px" transform="rotate(90 451.76 166.02)">clinton</text>
+<text class="term" data-term="donald" data-proportion="0.0030299152627869456" data-rotation="0" x="321.62" y="331.82" style="font-size:33.247367050px">donald</text>
+<text class="term" data-term="presidential" data-proportion="0.001790006256699508" data-rotation="0" x="307.79" y="79.53" style="font-size:27.372476744px">presidential</text>
+<text class="term" data-term="mrs" data-proportion="0.0017486720190080887" data-rotation="0" x="200.97" y="212.70" style="font-size:27.145834076px">mrs</text>
+<text class="term" data-term="immigration" data-proportion="0.0011912126024096123" data-rotation="0" x="203.36" y="112.84" style="font-size:23.777060999px">immigration</text>
+<text class="term" data-term="hillary" data-proportion="0.0011883560250454594" data-rotation="90" x="485.04" y="187.69" style="font-size:23.757960627px" transform="rotate(90 485.04 187.69)">hillary</text>
+<text class="term" data-term="immigrants" data-proportion="0.00097479834254031873" data-rotation="0" x="158.69" y="182.98" style="font-size:22.258457493px">immigrants</text>
+<text class="term" data-term="nominee" data-proportion="0.00057658903649296953" data-rotation="0" x="181.84" y="155.22" style="font-size:18.932899284px">nominee</text>
+<text class="term" data-term="cruz" data-proportion="0.00044592700907957833" data-rotation="0" x="163.95" y="237.49" style="font-size:17.597377035px">cruz</text>
+<text class="term" data-term="rubio" data-proportion="0.00043156996760113905" data-rotation="90" x="421.57" y="118.87" style="font-size:17.439288072px" transform="rotate(90 421.57 118.87)">rubio</text>
+<text class="term" data-term="bannon" data-proportion="0.00031166453523093695" data-rotation="0" x="412.22" y="316.93" style="font-size:16.000000000px">bannon</text>
+</g>
+<g role="group" aria-label="panel b, topic 49" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="18.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="39.00">(b) T49</text>
+<text class="term" data-term="coronavirus" data-proportion="0.0089109235465967603" data-rotation="0" x="950.00" y="228.12" style="font-size:68.000000000px">coronavirus</text>
+<text class="term" data-term="virus" data-proportion="0.0073282799463039588" data-rotation="0" x="935.33" y="295.25" style="font-size:61.450772033px">virus</text>
+<text class="term" data-term="health" data-proportion="0.006850616127065977" data-rotation="0" x="938.79" y="156.64" style="font-size:59.337600996px">health</text>
+<text class="term" data-term="deaths" data-proportion="0.0030515955463430514" data-rotation="0" x="945.44" y="96.31" style="font-size:38.833113622px">deaths</text>
+<text class="term" data-term="disease" data-proportion="0.0025139420795370401" data-rotation="90" x="708.71" y="190.33" style="font-size:35.032714841px" transform="rotate(90 708.71 190.33)">disease</text>
+<text class="term" data-term="outbreak" data-proportion="0.0020368291668322823" data-rotation="0" x="947.53" y="336.52" style="font-size:31.302363539px">outbreak</text>
+<text class="term" data-term="testing" data-proportion="0.0019991543181636646" data-rotation="0" x="1093.23" y="281.97" style="font-size:30.990004964px">testing</text>
+<text class="term" data-term="tested" data-proportion="0.0018233472359281638" data-rotation="0" x="1106.31" y="161.92" style="font-size:29.491875545px">tested</text>
+<text class="term" data-term="infections" data-proportion="0.0017959616056192871" data-rotation="0" x="1117.41" y="318.16" style="font-size:29.252111033px">infections</text>
+<text class="term" data-term="infected" data-proportion="0.0017840518666813027" data-rotation="90" x="1193.38" y="212.48" style="font-size:29.147269735px" transform="rotate(90 1193.38 212.48)">infected</text>
+<text class="term" data-term="cdc" data-proportion="0.001660951693334863" data-rotation="0" x="816.63" y="269.54" style="font-size:28.042415330px">cdc</text>
+<text class="term" data-term="masks" data-proportion="0.0015929043643056839" data-rotation="0" x="789.61" y="150.03" style="font-size:27.414056768px">masks</text>
+<text class="term" data-term="wuhan" data-proportion="0.0013886956956410744" data-rotation="0" x="799.83" y="299.59" style="font-size:25.443102921px">wuhan</text>
+<text class="term" data-term="symptoms" data-proportion="0.001200130635723466" data-rotation="90" x="1222.79" y="106.65" style="font-size:23.489797175px" transform="rotate(90 1222.79 106.65)">symptoms</text>
+<text class="term" data-term="mutations" data-proportion="0.0006045636461386798" data-rotation="0" x="1089.96" y="127.19" style="font-size:16.000000000px">mutations</text>
+</g>
+<g role="group" aria-label="panel c, topic 35" data-layout-scale="0.9600">
+<rect class="topic-cell" x="35.00" y="386.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="407.00">(c) T35</text>
+<text class="term" data-term="michael" data-proportion="0.012346143047369761" data-rotation="0" x="330.00" y="595.41" style="font-size:65.920000000px">michael</text>
+<text class="term" data-term="barbaro" data-proportion="0.010424501475685596" data-rotation="0" x="332.01" y="525.46" style="font-size:60.339586707px">barbaro</text>
+<text class="term" data-term="recording" data-proportion="0.0087265155370636963" data-rotation="0" x="352.74" y="656.57" style="font-size:54.962337457px">recording</text>
+<text class="term" data-term="archived" data-proportion="0.0086752203569949275" data-rotation="0" x="332.27" y="715.75" style="font-size:54.792092316px">archived</text>
+<text class="term" data-term="going" data-proportion="0.0055472158499265296" data-rotation="90" x="168.63" y="574.30" style="font-size:43.237643713px" transform="rotate(90 168.63 574.30)">going</text>
+<text class="term" data-term="think" data-proportion="0.0050494975929757822" data-rotation="0" x="334.86" y="463.94" style="font-size:41.120200275px">think</text>
+<text class="term" data-term="really" data-proportion="0.004444375840043719" data-rotation="0" x="536.54" y="577.03" style="font-size:38.399780604px">really</text>
+<text class="term" data-term="yeah" data-proportion="0.0014422744428303259" data-rotation="0" x="491.63" y="532.78" style="font-size:20.636534850px">yeah</text>
+<text class="term" data-term="sarah" data-proportion="0.0013374552118742744" data-rotation="0" x="229.40" y="462.60" style="font-size:19.765950407px">sarah</text>
+<text class="term" data-term="thank" data-proportion="0.0012660077613973061" data-rotation="90" x="134.00" y="584.23" style="font-size:19.152829803px" transform="rotate(90 134.00 584.23)">thank</text>
+<text class="term" data-term="julie" data-proportion="0.0012013901160665137" data-rotation="0" x="425.97" y="464.69" style="font-size:18.583239277px">julie</text>
+<text class="term" data-term="schmidt" data-proportion="0.0012013693228939931" data-rotation="0" x="504.85" y="508.20" style="font-size:18.583053557px">schmidt</text>
+<text class="term" data-term="davis" data-proportion="0.0011431869881281973" data-rotation="0" x="172.15" y="659.64" style="font-size:18.056929415px">davis</text>
+<text class="term" data-term="jennifer" data-proportion="0.0010049036932940081" data-rotation="90" x="514.11" y="631.53" style="font-size:16.749968150px" transform="rotate(90 514.11 631.53)">jennifer</text>
+<text class="term" data-term="maggie" data-proportion="0.00092957703786678133" data-rotation="0" x="172.52" y="496.85" style="font-size:16.000000000px">maggie</text>
+</g>
+<g role="group" aria-label="panel d, topic 21" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="386.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="407.00">(d) T21</text>
+<text class="term" data-term="russian" data-proportion="0.015803411330029677" data-rotation="0" x="950.00" y="596.12" style="font-size:68.000000000px">russian</text>
+<text class="term" data-term="russia" data-proportion="0.013756148659115059" data-rotation="0" x="958.63" y="665.42" style="font-size:63.507855873px">russia</text>
+<text class="term" data-term="ukraine" data-proportion="0.012175301306246436" data-rotation="0" x="945.54" y="523.35" style="font-size:59.804914851px">ukraine</text>
+<text class="term" data-term="putin" data-proportion="0.0075873433170945727" data-rotation="0" x="968.82" y="460.48" style="font-size:47.415468959px">putin</text>
+<text class="term" data-term="ukrainian" data-proportion="0.005025200157402313" data-rotation="90" x="1112.58" y="568.70" style="font-size:38.768856197px" transform="rotate(90 1112.58 568.70)">ukrainian</text>
+<text class="term" data-term="moscow" data-proportion="0.004240538007622187" data-rotation="0" x="964.05" y="710.84" style="font-size:35.692750309px">moscow</text>
+<text class="term" data-term="vladimir" data-proportion="0.0031184711424716446" data-rotation="0" x="771.18" y="646.69" style="font-size:30.746791032px">vladimir</text>
+<text class="term" data-term="invasion" data-proportion="0.0025095433978081271" data-rotation="0" x="826.51" y="463.92" style="font-size:27.682043605px">invasion</text>
+<text class="term" data-term="kremlin" data-proportion="0.0022052799108173656" data-rotation="0" x="752.76" y="602.81" style="font-size:26.010522803px">kremlin</text>
+<text class="term" data-term="kyiv" data-proportion="0.0020009350202167069" data-rotation="90" x="790.10" y="545.84" style="font-size:24.822254488px" transform="rotate(90 790.10 545.84)">kyiv</text>
+<text class="term" data-term="nato" data-proportion="0.0017101608317124969" data-rotation="0" x="870.10" y="705.02" style="font-size:23.021282181px">nato</text>
+<text class="term" data-term="crimea" data-proportion="0.0012644975604018218" data-rotation="0" x="782.94" y="504.93" style="font-size:19.931801895px">crimea</text>
+<text class="term" data-term="navalny" data-proportion="0.001161557584563668" data-rotation="0" x="791.79" y="676.65" style="font-size:19.143668453px">navalny</text>
+<text class="term" data-term="belarus" data-proportion="0.00087356438664309066" data-rotation="90" x="1144.98" y="569.94" style="font-size:16.730705746px" transform="rotate(90 1144.98 569.94)">belarus</text>
+<text class="term" data-term="donetsk" data-proportion="0.0007944328360687086" data-rotation="0" x="1065.72" y="699.67" style="font-size:16.000000000px">donetsk</text>
+</g>
+<g role="group" aria-label="panel e, topic 8" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="754.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="775.00">(e) T8</text>
+<text class="term" data-term="police" data-proportion="0.018968756467708354" data-rotation="0" x="330.00" y="964.12" style="font-size:68.000000000px">police</text>
+<text class="term" data-term="officers" data-proportion="0.0088280748826222236" data-rotation="0" x="321.48" y="1021.01" style="font-size:48.876944386px">officers</text>
+<text class="term" data-term="officer" data-proportion="0.0063175364044516886" data-rotation="0" x="322.56" y="895.26" style="font-size:42.552772709px">officer</text>
+<text class="term" data-term="man" data-proportion="0.0039117732624068882" data-rotation="0" x="333.55" y="848.06" style="font-size:35.152127303px">man</text>
+<text class="term" data-term="shooting" data-proportion="0.0036983033325214275" data-rotation="90" x="473.01" y="949.96" style="font-size:34.396064488px" transform="rotate(90 473.01 949.96)">shooting</text>
+<text class="term" data-term="floyd" data-proportion="0.0028267810923863338" data-rotation="0" x="345.04" y="1059.07" style="font-size:31.055396147px">floyd</text>
+<text class="term" data-term="gun" data-proportion="0.0025681005128106141" data-rotation="0" x="180.31" y="964.32" style="font-size:29.967040730px">gun</text>
+<text class="term" data-term="gunman" data-proportion="0.0019564510657312591" data-rotation="0" x="242.10" y="848.82" style="font-size:27.151338497px">gunman</text>
+<text class="term" data-term="brooks" data-proportion="0.0015223053039853842" data-rotation="0" x="412.39" y="850.15" style="font-size:24.872849141px">brooks</text>
+<text class="term" data-term="footage" data-proportion="0.0011740659378525608" data-rotation="90" x="173.05" y="885.95" style="font-size:22.796634741px" transform="rotate(90 173.05 885.95)">footage</text>
+<text class="term" data-term="fatal" data-proportion="0.00091375974167100249" data-rotation="0" x="252.73" y="1050.76" style="font-size:21.033200879px">fatal</text>
+<text class="term" data-term="chauvin" data-proportion="0.00082485665794119068" data-rotation="0" x="159.81" y="990.32" style="font-size:20.374284989px">chauvin</text>
+<text class="term" data-term="minneapolis" data-proportion="0.00070505365407941961" data-rotation="0" x="333.15" y="810.96" style="font-size:19.427303839px">minneapolis</text>
+<text class="term" data-term="bystander" data-proportion="0.0005083421687409541" data-rotation="90" x="504.98" y="953.86" style="font-size:17.676883100px" transform="rotate(90 504.98 953.86)">bystander</text>
+<text class="term" data-term="gunshots" data-proportion="0.00035000264188484191" data-rotation="0" x="434.46" y="1051.29" style="font-size:16.000000000px">gunshots</text>
+</g>
+<g role="group" aria-label="panel f, topic 22" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="754.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="775.00">(f) T22</text>
+<text class="term" data-term="election" data-proportion="0.0087329071041293473" data-rotation="0" x="950.00" y="964.12" style="font-size:68.000000000px">election</text>
+<text class="term" data-term="republican" data-proportion="0.0074151796680417504" data-rotation="0" x="933.22" y="891.91" style="font-size:62.628662461px">republican</text>
+<text class="term" data-term="voters" data-proportion="0.0068041375381855725" data-rotation="0" x="962.52" y="1031.18" style="font-size:59.975968838px">voters</text>
+<text class="term" data-term="vote" data-proportion="0.0053290386570881013" data-rotation="0" x="789.35" y="1031.22" style="font-size:53.032192060px">vote</text>
+<text class="term" data-term="district" data-proportion="0.0034947506127561844" data-rotation="90" x="1143.63" y="932.24" style="font-size:42.870176131px" transform="rotate(90 1143.63 932.24)">district</text>
+<text class="term" data-term="voting" data-proportion="0.0031325882726415395" data-rotation="0" x="971.06" y="1079.26" style="font-size:40.566873591px">voting</text>
+<text class="term" data-term="polls" data-proportion="0.0019954409355952421" data-rotation="0" x="950.60" y="829.73" style="font-size:32.296662755px">polls</text>
+<text class="term" data-term="poll" data-proportion="0.001877206043662858" data-rotation="0" x="850.32" y="1072.34" style="font-size:31.313224008px">poll</text>
+<text class="term" data-term="margin" data-proportion="0.0017373667049139659" data-rotation="0" x="1058.24" y="825.62" style="font-size:30.109194399px">margin</text>
+<text class="term" data-term="ballots" data-proportion="0.0017372227254164687" data-rotation="90" x="727.58" y="905.09" style="font-size:30.107930234px" transform="rotate(90 727.58 905.09)">ballots</text>
+<text class="term" data-term="voter" data-proportion="0.0015509844519917373" data-rotation="0" x="851.44" y="826.24" style="font-size:28.426345725px">voter</text>
+<text class="term" data-term="turnout" data-proportion="0.0010026816177738723" data-rotation="0" x="1098.40" y="1063.66" style="font-size:22.777749536px">turnout</text>
+<text class="term" data-term="runoff" data-proportion="0.00076032751507677538" data-rotation="0" x="772.06" y="1062.87" style="font-size:19.783339371px">runoff</text>
+<text class="term" data-term="siena" data-proportion="0.00069029297881550685" data-rotation="90" x="1090.71" y="1010.72" style="font-size:18.831383119px" transform="rotate(90 1090.71 1010.72)">siena</text>
+<text class="term" data-term="upshot" data-proportion="0.00050198633336214914" data-rotation="0" x="1088.46" y="1083.71" style="font-size:16.000000000px">upshot</text>
+</g>
+<g role="group" aria-label="panel g, topic 7" data-layout-scale="0.8800">
+<rect class="topic-cell" x="35.00" y="1122.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="1143.00">(g) T7</text>
+<text class="term" data-term="investigation" data-proportion="0.0070210763472768308" data-rotation="0" x="330.00" y="1330.00" style="font-size:61.760000000px">investigation</text>
+<text class="term" data-term="fbi" data-proportion="0.0041810261385851494" data-rotation="0" x="327.79" y="1265.33" style="font-size:47.453811860px">fbi</text>
+<text class="term" data-term="mueller" data-proportion="0.0034889453719432998" data-rotation="0" x="328.78" y="1382.48" style="font-size:43.270942235px">mueller</text>
+<text class="term" data-term="special" data-proportion="0.0034079303403264038" data-rotation="0" x="335.71" y="1430.89" style="font-size:42.755098730px">special</text>
+<text class="term" data-term="lawyer" data-proportion="0.0029516140271272796" data-rotation="90" x="70.31" y="1331.57" style="font-size:39.727459664px" transform="rotate(90 70.31 1331.57)">lawyer</text>
+<text class="term" data-term="counsel" data-proportion="0.0028961134561382097" data-rotation="0" x="453.53" y="1267.31" style="font-size:39.343681864px">counsel</text>
+<text class="term" data-term="inquiry" data-proportion="0.0028451327396556655" data-rotation="0" x="202.80" y="1264.72" style="font-size:38.987904593px">inquiry</text>
+<text class="term" data-term="comey" data-proportion="0.0026075032705891376" data-rotation="0" x="330.49" y="1215.29" style="font-size:37.285858594px">comey</text>
+<text class="term" data-term="giuliani" data-proportion="0.0019078371611494971" data-rotation="0" x="498.21" y="1378.47" style="font-size:31.763405888px">giuliani</text>
+<text class="term" data-term="cohen" data-proportion="0.001454511559729769" data-rotation="90" x="219.67" y="1384.84" style="font-size:27.620037624px" transform="rotate(90 219.67 1384.84)">cohen</text>
+<text class="term" data-term="barr" data-proportion="0.0012886305574050896" data-rotation="0" x="420.30" y="1222.90" style="font-size:25.944545644px">barr</text>
+<text class="term" data-term="sessions" data-proportion="0.0012538706423298133" data-rotation="0" x="201.05" y="1221.59" style="font-size:25.580018947px">sessions</text>
+<text class="term" data-term="manafort" data-proportion="0.00098352394691824394" data-rotation="0" x="149.74" y="1368.04" style="font-size:22.552284280px">manafort</text>
+<text class="term" data-term="flynn" data-proportion="0.00093746934763003491" data-rotation="90" x="188.85" y="1407.56" style="font-size:21.996620150px" transform="rotate(90 188.85 1407.56)">flynn</text>
+<text class="term" data-term="rosenstein" data-proportion="0.0005107200645422757" data-rotation="0" x="477.95" y="1400.21" style="font-size:16.000000000px">rosenstein</text>
+</g>
+<g role="group" aria-label="panel h, topic 32" data-layout-scale="0.8800">
+<rect class="topic-cell" x="655.00" y="1122.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="1143.00">(h) T32</text>
+<text class="term" data-term="prison" data-proportion="0.0028944838610265493" data-rotation="0" x="950.00" y="1330.00" style="font-size:61.760000000px">prison</text>
+<text class="term" data-term="charges" data-proportion="0.0026995391016431136" data-rotation="0" x="939.64" y="1394.06" style="font-size:59.228299492px">charges</text>
+<text class="term" data-term="prosecutors" data-proportion="0.0025957411577639698" data-rotation="0" x="928.36" y="1264.23" style="font-size:57.842941336px">prosecutors</text>
+<text class="term" data-term="trial" data-proportion="0.0024841596938043661" data-rotation="0" x="1151.14" y="1338.91" style="font-size:56.322437352px">trial</text>
+<text class="term" data-term="guilty" data-proportion="0.0018313368214703479" data-rotation="90" x="779.20" y="1360.75" style="font-size:46.643448380px" transform="rotate(90 779.20 1360.75)">guilty</text>
+<text class="term" data-term="convicted" data-proportion="0.0016450999720749309" data-rotation="0" x="963.47" y="1202.79" style="font-size:43.574770238px">convicted</text>
+<text class="term" data-term="sentence" data-proportion="0.0011282657907985838" data-rotation="0" x="953.56" y="1436.63" style="font-size:34.001618818px">sentence</text>
+<text class="term" data-term="jury" data-proportion="0.0011130149680421183" data-rotation="0" x="1104.83" y="1392.42" style="font-size:33.688762749px">jury</text>
+<text class="term" data-term="execution" data-proportion="0.0009963591391782007" data-rotation="0" x="1124.65" y="1441.44" style="font-size:31.221060296px">execution</text>
+<text class="term" data-term="sentenced" data-proportion="0.00084829675721648842" data-rotation="90" x="735.22" y="1360.75" style="font-size:27.870367805px" transform="rotate(90 735.22 1360.75)">sentenced</text>
+<text class="term" data-term="inmates" data-proportion="0.00082805465006045712" data-rotation="0" x="779.72" y="1203.94" style="font-size:27.390216590px">inmates</text>
+<text class="term" data-term="pleaded" data-proportion="0.00081370717246716175" data-rotation="0" x="1178.20" y="1281.30" style="font-size:27.046325001px">pleaded</text>
+<text class="term" data-term="silver" data-proportion="0.00074064456313183375" data-rotation="0" x="1133.63" y="1206.84" style="font-size:25.246055594px">silver</text>
+<text class="term" data-term="jurors" data-proportion="0.0004421788115042832" data-rotation="90" x="823.31" y="1306.69" style="font-size:16.748899071px" transform="rotate(90 823.31 1306.69)">jurors</text>
+<text class="term" data-term="corrections" data-proportion="0.0004195442154406531" data-rotation="0" x="939.21" y="1459.98" style="font-size:16.000000000px">corrections</text>
+</g>
+<g role="group" aria-label="panel i, topic 16" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="1490.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="1511.00">(i) T16</text>
+<text class="term" data-term="tax" data-proportion="0.0085297876873907611" data-rotation="0" x="330.00" y="1700.12" style="font-size:68.000000000px">tax</text>
+<text class="term" data-term="income" data-proportion="0.0039651927956890669" data-rotation="0" x="341.34" y="1756.08" style="font-size:48.073297782px">income</text>
+<text class="term" data-term="care" data-proportion="0.0031990705929509796" data-rotation="0" x="329.61" y="1631.73" style="font-size:43.727196401px">care</text>
+<text class="term" data-term="insurance" data-proportion="0.0027416670788396229" data-rotation="0" x="333.75" y="1584.24" style="font-size:40.879681864px">insurance</text>
+<text class="term" data-term="taxes" data-proportion="0.0023846633389678854" data-rotation="90" x="244.99" y="1652.08" style="font-size:38.487482687px" transform="rotate(90 244.99 1652.08)">taxes</text>
+<text class="term" data-term="medicaid" data-proportion="0.0012246745153334879" data-rotation="0" x="461.46" y="1667.75" style="font-size:29.104478470px">medicaid</text>
+<text class="term" data-term="trillion" data-proportion="0.0010477644853088856" data-rotation="0" x="458.92" y="1704.49" style="font-size:27.323739730px">trillion</text>
+<text class="term" data-term="affordable" data-proportion="0.00087971933364523996" data-rotation="0" x="320.19" y="1791.08" style="font-size:25.486742359px">affordable</text>
+<text class="term" data-term="obamacare" data-proportion="0.00078305263913141447" data-rotation="0" x="455.56" y="1632.03" style="font-size:24.349617028px">obamacare</text>
+<text class="term" data-term="subsidies" data-proportion="0.00074389939146121903" data-rotation="90" x="210.17" y="1688.74" style="font-size:23.869159614px" transform="rotate(90 210.17 1688.74)">subsidies</text>
+<text class="term" data-term="irs" data-proportion="0.00067742193887111463" data-rotation="0" x="457.01" y="1732.54" style="font-size:23.023469625px">irs</text>
+<text class="term" data-term="repeal" data-proportion="0.00055552525973607625" data-rotation="0" x="156.74" y="1694.59" style="font-size:21.356927404px">repeal</text>
+<text class="term" data-term="insurers" data-proportion="0.00041241145454598858" data-rotation="0" x="475.67" y="1761.51" style="font-size:19.145265379px">insurers</text>
+<text class="term" data-term="premiums" data-proportion="0.00030240125060817982" data-rotation="90" x="183.15" y="1622.36" style="font-size:17.166481691px" transform="rotate(90 183.15 1622.36)">premiums</text>
+<text class="term" data-term="uninsured" data-proportion="0.00024553038783504787" data-rotation="0" x="330.24" y="1813.46" style="font-size:16.000000000px">uninsured</text>
+</g>
+<g role="group" aria-label="panel j, topic 12" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="1490.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="1511.00">(j) T12</text>
+<text class="term" data-term="vaccine" data-proportion="0.020865082170694986" data-rotation="0" x="950.00" y="1700.12" style="font-size:68.000000000px">vaccine</text>
+<text class="term" data-term="doses" data-proportion="0.006928212691245327" data-rotation="0" x="963.41" y="1749.95" style="font-size:41.239025327px">doses</text>
+<text class="term" data-term="vaccines" data-proportion="0.0063234265810052882" data-rotation="0" x="940.18" y="1632.22" style="font-size:39.614474823px">vaccines</text>
+<text class="term" data-term="pfizer" data-proportion="0.0036914587552622923" data-rotation="0" x="929.31" y="1589.94" style="font-size:31.411694814px">pfizer</text>
+<text class="term" data-term="dose" data-proportion="0.0033814617216596076" data-rotation="90" x="868.37" y="1750.18" style="font-size:30.271929179px" transform="rotate(90 868.37 1750.18)">dose</text>
+<text class="term" data-term="shots" data-proportion="0.0031217702188171899" data-rotation="0" x="976.60" y="1785.01" style="font-size:29.276219368px">shots</text>
+<text class="term" data-term="moderna" data-proportion="0.0022081664173743678" data-rotation="0" x="1081.45" y="1746.14" style="font-size:25.393260312px">moderna</text>
+<text class="term" data-term="booster" data-proportion="0.0018616874757231099" data-rotation="0" x="1089.44" y="1626.57" style="font-size:23.712773884px">booster</text>
+<text class="term" data-term="astrazeneca" data-proportion="0.0018400601474491927" data-rotation="0" x="971.09" y="1813.69" style="font-size:23.602884846px">astrazeneca</text>
+<text class="term" data-term="biontech" data-proportion="0.0016951397404998457" data-rotation="90" x="793.50" y="1687.49" style="font-size:22.849239724px" transform="rotate(90 793.50 1687.49)">biontech</text>
+<text class="term" data-term="fda" data-proportion="0.0016435746261662862" data-rotation="0" x="829.33" y="1734.85" style="font-size:22.573352015px">fda</text>
+<text class="term" data-term="boosters" data-proportion="0.00096379405518488999" data-rotation="0" x="1036.35" y="1590.33" style="font-size:18.421820341px">boosters</text>
+<text class="term" data-term="clots" data-proportion="0.00072574891504697224" data-rotation="0" x="813.91" y="1625.61" style="font-size:16.627030915px">clots</text>
+<text class="term" data-term="vaccinate" data-proportion="0.00065729335199882655" data-rotation="90" x="1114.57" y="1678.10" style="font-size:16.057814796px" transform="rotate(90 1114.57 1678.10)">vaccinate</text>
+<text class="term" data-term="efficacy" data-proportion="0.00065053004582108908" data-rotation="0" x="1060.05" y="1773.75" style="font-size:16.000000000px">efficacy</text>
+</g>
+</svg>

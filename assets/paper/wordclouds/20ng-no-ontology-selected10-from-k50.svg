@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1850" viewBox="0 0 1280 1850" role="img" aria-labelledby="title desc">
+<title id="title">20ng no-ontology weighted topic-word clouds</title>
+<desc id="desc">Ten selected K=50 topics. A higher label-blind theta-weighted token proportion always has a larger font; every term is at least 16 pixels.</desc>
+<style>
+          .paper-background { fill:#ffffff; }
+          .topic-cell { fill:#ffffff; stroke:#d7dce2; stroke-width:1; }
+          .panel-label,.term { font-family:Georgia,"Times New Roman",serif; fill:#17212b; }
+          .panel-label { font-size:17px; font-weight:600; }
+          .term { font-weight:400; text-anchor:middle; dominant-baseline:alphabetic; }
+        </style>
+<rect class="paper-background" x="0" y="0" width="1280" height="1850" />
+<g role="group" aria-label="panel a, topic 26" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="18.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="39.00">(a) T26</text>
+<text class="term" data-term="mail" data-proportion="0.0040718760814219953" data-rotation="0" x="330.00" y="228.12" style="font-size:68.000000000px">mail</text>
+<text class="term" data-term="thanks" data-proportion="0.0039043418772263258" data-rotation="0" x="338.45" y="299.66" style="font-size:66.364130522px">thanks</text>
+<text class="term" data-term="please" data-proportion="0.0039001285227383332" data-rotation="0" x="317.22" y="154.74" style="font-size:66.322541758px">please</text>
+<text class="term" data-term="email" data-proportion="0.0020998731578220518" data-rotation="0" x="178.84" y="217.21" style="font-size:45.818517733px">email</text>
+<text class="term" data-term="list" data-proportion="0.0020909046475599711" data-rotation="90" x="464.73" y="183.84" style="font-size:45.697710495px" transform="rotate(90 464.73 183.84)">list</text>
+<text class="term" data-term="send" data-proportion="0.0018736123084332717" data-rotation="0" x="167.07" y="270.19" style="font-size:42.687254698px">send</text>
+<text class="term" data-term="info" data-proportion="0.0017923723080251557" data-rotation="0" x="317.82" y="350.47" style="font-size:41.517160093px">info</text>
+<text class="term" data-term="looking" data-proportion="0.0017618924144354321" data-rotation="0" x="254.26" y="86.63" style="font-size:41.071337300px">looking</text>
+<text class="term" data-term="address" data-proportion="0.001560198781555177" data-rotation="0" x="434.17" y="85.83" style="font-size:38.018479967px">address</text>
+<text class="term" data-term="fax" data-proportion="0.0015146735677081804" data-rotation="90" x="479.15" y="272.90" style="font-size:37.302550785px" transform="rotate(90 479.15 272.90)">fax</text>
+<text class="term" data-term="advance" data-proportion="0.0013267370905673571" data-rotation="0" x="440.18" y="349.47" style="font-size:34.226442098px">advance</text>
+<text class="term" data-term="interested" data-proportion="0.0010839558581051748" data-rotation="0" x="170.94" y="340.76" style="font-size:29.909098738px">interested</text>
+<text class="term" data-term="appreciated" data-proportion="0.00078651900283668809" data-rotation="0" x="140.06" y="303.10" style="font-size:23.892868135px">appreciated</text>
+<text class="term" data-term="mailing" data-proportion="0.00072164967656067336" data-rotation="90" x="507.34" y="187.09" style="font-size:22.435951690px" transform="rotate(90 507.34 187.09)">mailing</text>
+<text class="term" data-term="hello" data-proportion="0.00046849083100657048" data-rotation="0" x="170.21" y="164.67" style="font-size:16.000000000px">hello</text>
+</g>
+<g role="group" aria-label="panel b, topic 19" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="18.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="39.00">(b) T19</text>
+<text class="term" data-term="jesus" data-proportion="0.0066261055014863431" data-rotation="0" x="950.00" y="228.12" style="font-size:68.000000000px">jesus</text>
+<text class="term" data-term="bible" data-proportion="0.0038655010702658968" data-rotation="0" x="956.93" y="158.08" style="font-size:49.655246461px">bible</text>
+<text class="term" data-term="christian" data-proportion="0.0038050818233061182" data-rotation="0" x="946.71" y="286.72" style="font-size:49.189839216px">christian</text>
+<text class="term" data-term="christians" data-proportion="0.0036026137902283313" data-rotation="0" x="964.06" y="102.60" style="font-size:47.602666780px">christians</text>
+<text class="term" data-term="church" data-proportion="0.0031440974708009869" data-rotation="90" x="1103.69" y="214.67" style="font-size:43.834513541px" transform="rotate(90 1103.69 214.67)">church</text>
+<text class="term" data-term="truth" data-proportion="0.0022275684775514655" data-rotation="0" x="828.96" y="156.75" style="font-size:35.366953192px">truth</text>
+<text class="term" data-term="christianity" data-proportion="0.0018743900863853972" data-rotation="0" x="939.72" y="327.12" style="font-size:31.643287367px">christianity</text>
+<text class="term" data-term="scripture" data-proportion="0.0010992653545361492" data-rotation="0" x="788.98" y="236.46" style="font-size:21.969842289px">scripture</text>
+<text class="term" data-term="holy" data-proportion="0.0010825035647054838" data-rotation="0" x="818.31" y="203.73" style="font-size:21.727746148px">holy</text>
+<text class="term" data-term="spirit" data-proportion="0.001068330228554807" data-rotation="90" x="1065.70" y="199.04" style="font-size:21.521569409px" transform="rotate(90 1065.70 199.04)">spirit</text>
+<text class="term" data-term="catholic" data-proportion="0.00097767047370783482" data-rotation="0" x="938.35" y="354.95" style="font-size:20.169070368px">catholic</text>
+<text class="term" data-term="beliefs" data-proportion="0.0009607492592065926" data-rotation="0" x="772.79" y="268.12" style="font-size:19.909783571px">beliefs</text>
+<text class="term" data-term="worship" data-proportion="0.00079663577846191295" data-rotation="0" x="1078.74" y="129.25" style="font-size:17.265826375px">worship</text>
+<text class="term" data-term="resurrection" data-proportion="0.00077000897857734945" data-rotation="0" x="730.23" y="198.75" style="font-size:16.811970418px">resurrection</text>
+<text class="term" data-term="doctrine" data-proportion="0.0007235014744692628" data-rotation="0" x="1100.43" y="313.34" style="font-size:16.000000000px">doctrine</text>
+</g>
+<g role="group" aria-label="panel c, topic 46" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="386.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="407.00">(c) T46</text>
+<text class="term" data-term="key" data-proportion="0.013483724886883887" data-rotation="0" x="330.00" y="596.12" style="font-size:68.000000000px">key</text>
+<text class="term" data-term="encryption" data-proportion="0.0092297070510124393" data-rotation="0" x="320.59" y="656.69" style="font-size:53.424719505px">encryption</text>
+<text class="term" data-term="chip" data-proportion="0.009102002247517272" data-rotation="0" x="335.70" y="524.21" style="font-size:52.939835824px">chip</text>
+<text class="term" data-term="clipper" data-proportion="0.008454936739606107" data-rotation="0" x="162.04" y="579.31" style="font-size:50.428950912px">clipper</text>
+<text class="term" data-term="keys" data-proportion="0.0049216695757122435" data-rotation="90" x="419.06" y="560.92" style="font-size:34.582816712px" transform="rotate(90 419.06 560.92)">keys</text>
+<text class="term" data-term="escrow" data-proportion="0.0048283488343849167" data-rotation="0" x="204.21" y="524.15" style="font-size:34.096958423px">escrow</text>
+<text class="term" data-term="algorithm" data-proportion="0.0034571300487480864" data-rotation="0" x="344.36" y="691.71" style="font-size:26.325911975px">algorithm</text>
+<text class="term" data-term="privacy" data-proportion="0.0031049319025071203" data-rotation="0" x="322.07" y="472.14" style="font-size:24.090010641px">privacy</text>
+<text class="term" data-term="secure" data-proportion="0.0030323424192907574" data-rotation="0" x="447.01" y="511.06" style="font-size:23.613664433px">secure</text>
+<text class="term" data-term="enforcement" data-proportion="0.0029312969679087006" data-rotation="0" x="514.42" y="573.07" style="font-size:22.940988563px">enforcement</text>
+<text class="term" data-term="crypto" data-proportion="0.0026675798027962173" data-rotation="0" x="482.78" y="543.40" style="font-size:21.128656955px">crypto</text>
+<text class="term" data-term="des" data-proportion="0.0026500327419668067" data-rotation="0" x="459.34" y="598.94" style="font-size:21.004955215px">des</text>
+<text class="term" data-term="nsa" data-proportion="0.0025549826678907045" data-rotation="0" x="250.65" y="482.10" style="font-size:20.327643268px">nsa</text>
+<text class="term" data-term="encrypted" data-proportion="0.0020347658345316942" data-rotation="90" x="493.64" y="625.36" style="font-size:16.373795654px" transform="rotate(90 493.64 625.36)">encrypted</text>
+<text class="term" data-term="wiretap" data-proportion="0.001988645214742769" data-rotation="0" x="208.23" y="605.18" style="font-size:16.000000000px">wiretap</text>
+</g>
+<g role="group" aria-label="panel d, topic 32" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="386.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="407.00">(d) T32</text>
+<text class="term" data-term="god" data-proportion="0.015147472740319103" data-rotation="0" x="950.00" y="596.12" style="font-size:68.000000000px">god</text>
+<text class="term" data-term="faith" data-proportion="0.0030369947168984693" data-rotation="0" x="934.12" y="529.75" style="font-size:31.719204993px">faith</text>
+<text class="term" data-term="gods" data-proportion="0.0027707467480255891" data-rotation="0" x="962.50" y="636.77" style="font-size:30.400140369px">gods</text>
+<text class="term" data-term="christ" data-proportion="0.0025623450291342264" data-rotation="0" x="835.79" y="585.37" style="font-size:29.322772699px">christ</text>
+<text class="term" data-term="atheists" data-proportion="0.0018645917298206432" data-rotation="90" x="1025.40" y="560.33" style="font-size:25.351946926px" transform="rotate(90 1025.40 560.33)">atheists</text>
+<text class="term" data-term="exist" data-proportion="0.0018302766800414323" data-rotation="0" x="884.78" y="635.35" style="font-size:25.138858896px">exist</text>
+<text class="term" data-term="existence" data-proportion="0.0016864646662797568" data-rotation="0" x="970.74" y="665.85" style="font-size:24.223302670px">existence</text>
+<text class="term" data-term="belief" data-proportion="0.0016478189447139129" data-rotation="0" x="840.33" y="545.46" style="font-size:23.970677470px">belief</text>
+<text class="term" data-term="sin" data-proportion="0.0014747413142936012" data-rotation="0" x="1062.80" y="581.77" style="font-size:22.801119562px">sin</text>
+<text class="term" data-term="atheism" data-proportion="0.0013566637329584426" data-rotation="90" x="1058.03" y="513.50" style="font-size:21.963339256px" transform="rotate(90 1058.03 513.50)">atheism</text>
+<text class="term" data-term="lord" data-proportion="0.0013493017744420747" data-rotation="0" x="934.36" y="496.32" style="font-size:21.909919504px">lord</text>
+<text class="term" data-term="heaven" data-proportion="0.0013077372041454425" data-rotation="0" x="1081.24" y="607.21" style="font-size:21.605546000px">heaven</text>
+<text class="term" data-term="eternal" data-proportion="0.0012624638381000329" data-rotation="0" x="838.86" y="514.32" style="font-size:21.268456434px">eternal</text>
+<text class="term" data-term="atheist" data-proportion="0.001134371989995609" data-rotation="90" x="997.56" y="492.83" style="font-size:20.280525040px" transform="rotate(90 997.56 492.83)">atheist</text>
+<text class="term" data-term="salvation" data-proportion="0.00065851647442003347" data-rotation="0" x="1054.77" y="638.23" style="font-size:16.000000000px">salvation</text>
+</g>
+<g role="group" aria-label="panel e, topic 17" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="754.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="775.00">(e) T17</text>
+<text class="term" data-term="power" data-proportion="0.0021020508411124556" data-rotation="0" x="330.00" y="964.12" style="font-size:68.000000000px">power</text>
+<text class="term" data-term="ground" data-proportion="0.0015293940108877676" data-rotation="0" x="334.10" y="1025.74" style="font-size:54.453904697px">ground</text>
+<text class="term" data-term="current" data-proportion="0.0013895468118572615" data-rotation="0" x="329.73" y="893.01" style="font-size:50.774627437px">current</text>
+<text class="term" data-term="wire" data-proportion="0.0011457519446269151" data-rotation="0" x="175.61" y="950.61" style="font-size:43.886353875px">wire</text>
+<text class="term" data-term="circuit" data-proportion="0.0010107430634338781" data-rotation="90" x="457.50" y="924.76" style="font-size:39.753044901px" transform="rotate(90 457.50 924.76)">circuit</text>
+<text class="term" data-term="wiring" data-proportion="0.00084916277071442738" data-rotation="0" x="334.19" y="840.93" style="font-size:34.423986610px">wiring</text>
+<text class="term" data-term="input" data-proportion="0.00081948046519767339" data-rotation="0" x="345.59" y="1066.75" style="font-size:33.391392279px">input</text>
+<text class="term" data-term="audio" data-proportion="0.00075152137904373759" data-rotation="0" x="181.97" y="989.88" style="font-size:30.954381148px">audio</text>
+<text class="term" data-term="voltage" data-proportion="0.0006799137816530398" data-rotation="0" x="155.79" y="901.56" style="font-size:28.264048916px">voltage</text>
+<text class="term" data-term="amp" data-proportion="0.00066475571893584526" data-rotation="90" x="219.02" y="1026.94" style="font-size:27.676641408px" transform="rotate(90 219.02 1026.94)">amp</text>
+<text class="term" data-term="neutral" data-proportion="0.00065039354023758815" data-rotation="0" x="213.17" y="842.12" style="font-size:27.113864913px">neutral</text>
+<text class="term" data-term="connected" data-proportion="0.0005514063960527358" data-rotation="0" x="160.82" y="869.58" style="font-size:23.052905891px">connected</text>
+<text class="term" data-term="signal" data-proportion="0.00053567945039991848" data-rotation="0" x="481.18" y="1029.85" style="font-size:22.375076338px">signal</text>
+<text class="term" data-term="circuits" data-proportion="0.00043895312579157888" data-rotation="90" x="489.75" y="922.42" style="font-size:17.966914080px" transform="rotate(90 489.75 922.42)">circuits</text>
+<text class="term" data-term="wires" data-proportion="0.00039889891223955068" data-rotation="0" x="260.79" y="1052.56" style="font-size:16.000000000px">wires</text>
+</g>
+<g role="group" aria-label="panel f, topic 37" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="754.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="775.00">(f) T37</text>
+<text class="term" data-term="sale" data-proportion="0.011256917866446794" data-rotation="0" x="950.00" y="964.12" style="font-size:68.000000000px">sale</text>
+<text class="term" data-term="offer" data-proportion="0.0040168211417124346" data-rotation="0" x="951.90" y="895.41" style="font-size:39.654058819px">offer</text>
+<text class="term" data-term="shipping" data-proportion="0.0033249182456076805" data-rotation="0" x="969.54" y="1009.40" style="font-size:35.861155530px">shipping</text>
+<text class="term" data-term="price" data-proportion="0.0032140069194282767" data-rotation="0" x="934.36" y="1048.46" style="font-size:35.217607940px">price</text>
+<text class="term" data-term="condition" data-proportion="0.0030178494673646929" data-rotation="90" x="848.40" y="935.01" style="font-size:34.051624899px" transform="rotate(90 848.40 935.01)">condition</text>
+<text class="term" data-term="asking" data-proportion="0.0023067214099093442" data-rotation="0" x="1085.51" y="956.39" style="font-size:29.468911391px">asking</text>
+<text class="term" data-term="sell" data-proportion="0.0020029990185401652" data-rotation="0" x="1052.62" y="896.92" style="font-size:27.296886902px">sell</text>
+<text class="term" data-term="excellent" data-proportion="0.0018486451404590249" data-rotation="0" x="960.22" y="852.97" style="font-size:26.129743989px">excellent</text>
+<text class="term" data-term="obo" data-proportion="0.0010350331956280627" data-rotation="0" x="1049.59" y="921.01" style="font-size:18.947787372px">obo</text>
+<text class="term" data-term="items" data-proportion="0.0010341652883631787" data-rotation="90" x="878.45" y="866.45" style="font-size:18.938835485px" transform="rotate(90 878.45 866.45)">items</text>
+<text class="term" data-term="manuals" data-proportion="0.0010243548450599648" data-rotation="0" x="1034.55" y="1034.78" style="font-size:18.837384880px">manuals</text>
+<text class="term" data-term="cds" data-proportion="0.00094216360715910651" data-rotation="0" x="1076.91" y="982.03" style="font-size:17.967596231px">cds</text>
+<text class="term" data-term="stereo" data-proportion="0.00094214297886131783" data-rotation="0" x="796.53" y="932.18" style="font-size:17.967373270px">stereo</text>
+<text class="term" data-term="forsale" data-proportion="0.00088644342988702148" data-rotation="90" x="808.75" y="974.63" style="font-size:17.356168611px" transform="rotate(90 808.75 974.63)">forsale</text>
+<text class="term" data-term="speakers" data-proportion="0.00076891492864498653" data-rotation="0" x="1113.10" y="917.70" style="font-size:16.000000000px">speakers</text>
+</g>
+<g role="group" aria-label="panel g, topic 21" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="1122.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="1143.00">(g) T21</text>
+<text class="term" data-term="car" data-proportion="0.0081837360210140798" data-rotation="0" x="330.00" y="1332.12" style="font-size:68.000000000px">car</text>
+<text class="term" data-term="cars" data-proportion="0.0029913878226098395" data-rotation="0" x="319.36" y="1382.32" style="font-size:41.770842455px">cars</text>
+<text class="term" data-term="dealer" data-proportion="0.0012160047486078954" data-rotation="0" x="337.96" y="1266.38" style="font-size:27.235850869px">dealer</text>
+<text class="term" data-term="driving" data-proportion="0.00097446129834481059" data-rotation="0" x="315.89" y="1236.24" style="font-size:24.555847091px">driving</text>
+<text class="term" data-term="radar" data-proportion="0.00090229003149271884" data-rotation="90" x="255.41" y="1306.44" style="font-size:23.691901171px" transform="rotate(90 255.41 1306.44)">radar</text>
+<text class="term" data-term="saturn" data-proportion="0.00077258036443608714" data-rotation="0" x="431.75" y="1307.47" style="font-size:22.047327472px">saturn</text>
+<text class="term" data-term="ford" data-proportion="0.00076733890358572209" data-rotation="0" x="420.86" y="1340.63" style="font-size:21.978072770px">ford</text>
+<text class="term" data-term="tires" data-proportion="0.00073399498876769768" data-rotation="0" x="254.74" y="1264.22" style="font-size:21.531851779px">tires</text>
+<text class="term" data-term="rear" data-proportion="0.00061174499966186132" data-rotation="0" x="401.18" y="1369.28" style="font-size:19.802183167px">rear</text>
+<text class="term" data-term="brake" data-proportion="0.00052853144898088768" data-rotation="90" x="229.27" y="1314.89" style="font-size:18.523614860px" transform="rotate(90 229.27 1314.89)">brake</text>
+<text class="term" data-term="toyota" data-proportion="0.00048795878022599566" data-rotation="0" x="432.49" y="1278.94" style="font-size:17.863660685px">toyota</text>
+<text class="term" data-term="mileage" data-proportion="0.00043975281487351324" data-rotation="0" x="230.92" y="1361.55" style="font-size:17.042768182px">mileage</text>
+<text class="term" data-term="brakes" data-proportion="0.00042620322451845412" data-rotation="0" x="423.54" y="1257.41" style="font-size:16.804021797px">brakes</text>
+<text class="term" data-term="automotive" data-proportion="0.00038880508979132736" data-rotation="90" x="207.39" y="1292.62" style="font-size:16.124617031px" transform="rotate(90 207.39 1292.62)">automotive</text>
+<text class="term" data-term="mustang" data-proportion="0.00038213183836675451" data-rotation="0" x="325.08" y="1407.81" style="font-size:16.000000000px">mustang</text>
+</g>
+<g role="group" aria-label="panel h, topic 18" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="1122.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="1143.00">(h) T18</text>
+<text class="term" data-term="bike" data-proportion="0.0062174462828202999" data-rotation="0" x="950.00" y="1332.12" style="font-size:68.000000000px">bike</text>
+<text class="term" data-term="dod" data-proportion="0.0036737611713372111" data-rotation="0" x="946.32" y="1390.99" style="font-size:51.544916634px">dod</text>
+<text class="term" data-term="ride" data-proportion="0.0020630858621419248" data-rotation="0" x="951.77" y="1264.77" style="font-size:37.840466435px">ride</text>
+<text class="term" data-term="bikes" data-proportion="0.0016598492069909289" data-rotation="0" x="1044.73" y="1384.91" style="font-size:33.618297021px">bikes</text>
+<text class="term" data-term="riding" data-proportion="0.0016433807192534286" data-rotation="90" x="847.92" y="1309.18" style="font-size:33.435501996px" transform="rotate(90 847.92 1309.18)">riding</text>
+<text class="term" data-term="motorcycle" data-proportion="0.0015006227626568227" data-rotation="0" x="948.89" y="1222.52" style="font-size:31.810890474px">motorcycle</text>
+<text class="term" data-term="dog" data-proportion="0.0014288896575521274" data-rotation="0" x="1062.36" y="1320.86" style="font-size:30.965352301px">dog</text>
+<text class="term" data-term="helmet" data-proportion="0.0012466971196147521" data-rotation="0" x="1058.01" y="1259.76" style="font-size:28.717064381px">helmet</text>
+<text class="term" data-term="bmw" data-proportion="0.0011931136453018931" data-rotation="0" x="868.56" y="1395.13" style="font-size:28.024982164px">bmw</text>
+<text class="term" data-term="honda" data-proportion="0.00090374615225391865" data-rotation="90" x="815.60" y="1307.78" style="font-size:23.984017480px" transform="rotate(90 815.60 1307.78)">honda</text>
+<text class="term" data-term="rider" data-proportion="0.00088261288904387331" data-rotation="0" x="960.76" y="1423.57" style="font-size:23.665033783px">rider</text>
+<text class="term" data-term="riders" data-proportion="0.00069037348705751269" data-rotation="0" x="1074.38" y="1350.13" style="font-size:20.567086395px">riders</text>
+<text class="term" data-term="dogs" data-proportion="0.00067651058315251343" data-rotation="0" x="1057.06" y="1285.42" style="font-size:20.327880070px">dogs</text>
+<text class="term" data-term="ama" data-proportion="0.00065312764438361036" data-rotation="90" x="888.52" y="1249.94" style="font-size:19.918781614px" transform="rotate(90 888.52 1249.94)">ama</text>
+<text class="term" data-term="yamaha" data-proportion="0.00044997807865166902" data-rotation="0" x="1030.35" y="1409.02" style="font-size:16.000000000px">yamaha</text>
+</g>
+<g role="group" aria-label="panel i, topic 42" data-layout-scale="1.0000">
+<rect class="topic-cell" x="35.00" y="1490.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="44.00" y="1511.00">(i) T42</text>
+<text class="term" data-term="game" data-proportion="0.005443540017445664" data-rotation="0" x="330.00" y="1700.12" style="font-size:68.000000000px">game</text>
+<text class="term" data-term="games" data-proportion="0.0039322803536723724" data-rotation="0" x="334.40" y="1763.50" style="font-size:56.264427555px">games</text>
+<text class="term" data-term="runs" data-proportion="0.0030387506710409301" data-rotation="0" x="309.48" y="1630.91" style="font-size:48.227253533px">runs</text>
+<text class="term" data-term="pitching" data-proportion="0.002107610467089239" data-rotation="0" x="346.56" y="1579.85" style="font-size:38.459160976px">pitching</text>
+<text class="term" data-term="braves" data-proportion="0.001945374245087949" data-rotation="90" x="226.76" y="1677.54" style="font-size:36.548899473px" transform="rotate(90 226.76 1677.54)">braves</text>
+<text class="term" data-term="morris" data-proportion="0.0013655679743831701" data-rotation="0" x="430.91" y="1633.74" style="font-size:28.967719433px">morris</text>
+<text class="term" data-term="cubs" data-proportion="0.0013135077678151379" data-rotation="0" x="446.14" y="1680.59" style="font-size:28.213879154px">cubs</text>
+<text class="term" data-term="sox" data-proportion="0.0012285178175956838" data-rotation="0" x="443.69" y="1719.05" style="font-size:26.950354355px">sox</text>
+<text class="term" data-term="wins" data-proportion="0.0011651746150488798" data-rotation="0" x="174.00" y="1680.73" style="font-size:25.979957648px">wins</text>
+<text class="term" data-term="phillies" data-proportion="0.0010652824421599173" data-rotation="90" x="499.33" y="1674.69" style="font-size:24.394374797px" transform="rotate(90 499.33 1674.69)">phillies</text>
+<text class="term" data-term="jays" data-proportion="0.00087563151892125837" data-rotation="0" x="446.66" y="1747.59" style="font-size:21.164263827px">jays</text>
+<text class="term" data-term="yankees" data-proportion="0.00084675995820514521" data-rotation="0" x="319.72" y="1795.69" style="font-size:20.642871029px">yankees</text>
+<text class="term" data-term="pitchers" data-proportion="0.0007202738348622889" data-rotation="0" x="206.36" y="1604.21" style="font-size:18.246226058px">pitchers</text>
+<text class="term" data-term="innings" data-proportion="0.00069089612625601777" data-rotation="90" x="195.13" y="1728.98" style="font-size:17.660091627px" transform="rotate(90 195.13 1728.98)">innings</text>
+<text class="term" data-term="pitched" data-proportion="0.00061100992888781869" data-rotation="0" x="171.16" y="1642.93" style="font-size:16.000000000px">pitched</text>
+</g>
+<g role="group" aria-label="panel j, topic 44" data-layout-scale="1.0000">
+<rect class="topic-cell" x="655.00" y="1490.00" width="590.0" height="350.0" rx="2" />
+<text class="panel-label" x="664.00" y="1511.00">(j) T44</text>
+<text class="term" data-term="medical" data-proportion="0.0014598272660340703" data-rotation="0" x="950.00" y="1700.12" style="font-size:68.000000000px">medical</text>
+<text class="term" data-term="disease" data-proportion="0.0012243397823024824" data-rotation="0" x="947.71" y="1766.35" style="font-size:60.197139518px">disease</text>
+<text class="term" data-term="patients" data-proportion="0.0011866171948831477" data-rotation="0" x="948.29" y="1627.08" style="font-size:58.879514704px">patients</text>
+<text class="term" data-term="doctor" data-proportion="0.00091094542677537104" data-rotation="0" x="973.84" y="1565.40" style="font-size:48.534041622px">doctor</text>
+<text class="term" data-term="medicine" data-proportion="0.00084702574358279446" data-rotation="90" x="1116.95" y="1693.34" style="font-size:45.919038117px" transform="rotate(90 1116.95 1693.34)">medicine</text>
+<text class="term" data-term="treatment" data-proportion="0.00083027109156184875" data-rotation="0" x="959.10" y="1818.21" style="font-size:45.217409012px">treatment</text>
+<text class="term" data-term="pain" data-proportion="0.00079567862889778733" data-rotation="0" x="753.79" y="1696.84" style="font-size:43.746031100px">pain</text>
+<text class="term" data-term="cancer" data-proportion="0.00069330121926539762" data-rotation="0" x="746.87" y="1750.55" style="font-size:39.193126462px">cancer</text>
+<text class="term" data-term="yeast" data-proportion="0.00063192074392677566" data-rotation="0" x="752.39" y="1629.90" style="font-size:36.300620788px">yeast</text>
+<text class="term" data-term="doctors" data-proportion="0.00053919460812154628" data-rotation="90" x="1160.85" y="1696.44" style="font-size:31.649954392px" transform="rotate(90 1160.85 1696.44)">doctors</text>
+<text class="term" data-term="symptoms" data-proportion="0.00050202106320446126" data-rotation="0" x="804.53" y="1568.01" style="font-size:29.673874087px">symptoms</text>
+<text class="term" data-term="diseases" data-proportion="0.00045538689050102021" data-rotation="0" x="771.54" y="1804.98" style="font-size:27.088303465px">diseases</text>
+<text class="term" data-term="patient" data-proportion="0.00039919899757803203" data-rotation="0" x="1117.89" y="1569.05" style="font-size:23.790143805px">patient</text>
+<text class="term" data-term="infection" data-proportion="0.00035049659931058109" data-rotation="90" x="1191.00" y="1662.30" style="font-size:20.737971398px" transform="rotate(90 1191.00 1662.30)">infection</text>
+<text class="term" data-term="infections" data-proportion="0.00028116881145853702" data-rotation="0" x="751.54" y="1776.00" style="font-size:16.000000000px">infections</text>
+</g>
+</svg>

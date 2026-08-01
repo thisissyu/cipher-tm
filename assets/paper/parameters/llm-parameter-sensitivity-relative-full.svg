@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.1in" height="3.71in" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+<title id="title">LLM parameter sensitivity</title>
+<desc id="desc">4 panels; five metric series; delta score times 100.</desc>
+<style>
+      .canvas { fill:#ffffff; }
+      text { fill:#111111; font-family:"Times New Roman","Liberation Serif",serif; font-size:14px; font-weight:400; }
+      .panel-title { font-size:16px; font-weight:500; }
+      .axis-label { font-size:15px; font-weight:500; }
+      .tick-label,.legend-label,.token-label,.x-row-label { font-size:14px; font-weight:400; }
+      .axis,.tick { stroke:#333333; stroke-width:0.8; }
+      .grid { stroke:#dddddd; stroke-width:0.6; }
+      .zero-line { stroke:#666666; stroke-width:0.9; }
+      .baseline-guide { stroke:#999999; stroke-width:0.8; stroke-dasharray:3 3; }
+      .curve { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; }
+      .curve.series-2 { stroke-dasharray:7 4; }
+      .curve.series-3 { stroke-dasharray:2 3; }
+      .curve.series-4 { stroke-dasharray:9 3 2 3; }
+      .curve.series-5 { stroke-dasharray:11 4; }
+      .series-1 { stroke:#0072b2; fill:#0072b2; }
+      .series-2 { stroke:#e69f00; fill:#e69f00; }
+      .series-3 { stroke:#009e73; fill:#009e73; }
+      .series-4 { stroke:#d55e00; fill:#d55e00; }
+      .series-5 { stroke:#cc79a7; fill:#cc79a7; }
+      .curve.series-1,.curve.series-2,.curve.series-3,.curve.series-4,.curve.series-5 { fill:none; }
+      .mark { stroke-width:1.3; }
+      .baseline-mark { fill:#ffffff; stroke-width:2; }
+    </style>
+<rect class="canvas" x="0" y="0" width="100%" height="100%" />
+<line class="curve series-1" x1="135.00" y1="18.00" x2="157.00" y2="18.00" />
+<circle class="mark series-1" cx="146.00" cy="18.00" r="3.6" />
+<text class="legend-label" x="163.00" y="22.50">TC</text>
+<line class="curve series-2" x1="261.00" y1="18.00" x2="283.00" y2="18.00" />
+<rect class="mark series-2" x="268.40" y="14.40" width="7.2" height="7.2" />
+<text class="legend-label" x="289.00" y="22.50">Purity</text>
+<line class="curve series-3" x1="387.00" y1="18.00" x2="409.00" y2="18.00" />
+<polygon class="mark series-3" points="398.00,13.80 394.00,21.40 402.00,21.40" />
+<text class="legend-label" x="415.00" y="22.50">NMI</text>
+<line class="curve series-4" x1="513.00" y1="18.00" x2="535.00" y2="18.00" />
+<polygon class="mark series-4" points="524.00,13.70 519.70,18.00 524.00,22.30 528.30,18.00" />
+<text class="legend-label" x="541.00" y="22.50">Accuracy</text>
+<line class="curve series-5" x1="639.00" y1="18.00" x2="661.00" y2="18.00" />
+<path class="mark series-5" fill="none" d="M 646.20 14.20 L 653.80 21.80 M 646.20 21.80 L 653.80 14.20" />
+<text class="legend-label" x="667.00" y="22.50">Macro-F1</text>
+<text class="axis-label" x="16" y="128.00" transform="rotate(-90 16 128.00)" text-anchor="middle">Δ score ×100</text>
+<text class="panel-title" x="76.00" y="47.00">(a) 20NG · LLM anchor weight</text>
+<line class="grid" x1="76.00" y1="198.00" x2="453.00" y2="198.00" />
+<text class="tick-label" x="69.00" y="202.50" text-anchor="end">-8.0</text>
+<line class="grid" x1="76.00" y1="163.00" x2="453.00" y2="163.00" />
+<text class="tick-label" x="69.00" y="167.50" text-anchor="end">-4.0</text>
+<line class="zero-line" x1="76.00" y1="128.00" x2="453.00" y2="128.00" />
+<text class="tick-label" x="69.00" y="132.50" text-anchor="end">0</text>
+<line class="grid" x1="76.00" y1="93.00" x2="453.00" y2="93.00" />
+<text class="tick-label" x="69.00" y="97.50" text-anchor="end">+4.0</text>
+<line class="grid" x1="76.00" y1="58.00" x2="453.00" y2="58.00" />
+<text class="tick-label" x="69.00" y="62.50" text-anchor="end">+8.0</text>
+<line class="axis" x1="76.00" y1="58.00" x2="76.00" y2="198.00" />
+<line class="axis" x1="76.00" y1="198.00" x2="453.00" y2="198.00" />
+<line class="tick" x1="76.00" y1="198.00" x2="76.00" y2="202.00" />
+<text class="tick-label" x="76.00" y="216.00" text-anchor="middle">0.50</text>
+<line class="tick" x1="226.80" y1="198.00" x2="226.80" y2="202.00" />
+<text class="tick-label" x="226.80" y="216.00" text-anchor="middle">0.70</text>
+<line class="tick" x1="377.60" y1="198.00" x2="377.60" y2="202.00" />
+<text class="tick-label" x="377.60" y="216.00" text-anchor="middle">0.90</text>
+<line class="tick" x1="453.00" y1="198.00" x2="453.00" y2="202.00" />
+<text class="tick-label" x="453.00" y="216.00" text-anchor="middle">1.00</text>
+<line class="baseline-guide" x1="377.60" y1="58.00" x2="377.60" y2="198.00" />
+<polyline class="curve series-1" points="76.00,132.10 226.80,130.58 377.60,128.00 453.00,129.80" />
+<circle class="mark series-1" cx="76.00" cy="132.10" r="3.6" />
+<circle class="mark series-1" cx="226.80" cy="130.58" r="3.6" />
+<circle class="mark series-1 baseline-mark" cx="377.60" cy="128.00" r="3.6" />
+<circle class="mark series-1" cx="453.00" cy="129.80" r="3.6" />
+<polyline class="curve series-2" points="76.00,129.74 226.80,128.46 377.60,128.00 453.00,130.09" />
+<rect class="mark series-2" x="72.40" y="126.14" width="7.2" height="7.2" />
+<rect class="mark series-2" x="223.20" y="124.86" width="7.2" height="7.2" />
+<rect class="mark series-2 baseline-mark" x="374.00" y="124.40" width="7.2" height="7.2" />
+<rect class="mark series-2" x="449.40" y="126.49" width="7.2" height="7.2" />
+<polyline class="curve series-3" points="76.00,131.01 226.80,128.96 377.60,128.00 453.00,130.70" />
+<polygon class="mark series-3" points="76.00,126.81 72.00,134.41 80.00,134.41" />
+<polygon class="mark series-3" points="226.80,124.76 222.80,132.36 230.80,132.36" />
+<polygon class="mark series-3 baseline-mark" points="377.60,123.80 373.60,131.40 381.60,131.40" />
+<polygon class="mark series-3" points="453.00,126.50 449.00,134.10 457.00,134.10" />
+<polyline class="curve series-4" points="76.00,136.30 226.80,140.97 377.60,128.00 453.00,141.42" />
+<polygon class="mark series-4" points="76.00,132.00 71.70,136.30 76.00,140.60 80.30,136.30" />
+<polygon class="mark series-4" points="226.80,136.67 222.50,140.97 226.80,145.27 231.10,140.97" />
+<polygon class="mark series-4 baseline-mark" points="377.60,123.70 373.30,128.00 377.60,132.30 381.90,128.00" />
+<polygon class="mark series-4" points="453.00,137.12 448.70,141.42 453.00,145.72 457.30,141.42" />
+<polyline class="curve series-5" points="76.00,141.53 226.80,146.24 377.60,128.00 453.00,148.28" />
+<path class="mark series-5" fill="none" d="M 72.20 137.73 L 79.80 145.33 M 72.20 145.33 L 79.80 137.73" />
+<path class="mark series-5" fill="none" d="M 223.00 142.44 L 230.60 150.04 M 223.00 150.04 L 230.60 142.44" />
+<path class="mark series-5 baseline-mark" fill="none" d="M 373.80 124.20 L 381.40 131.80 M 373.80 131.80 L 381.40 124.20" />
+<path class="mark series-5" fill="none" d="M 449.20 144.48 L 456.80 152.08 M 449.20 152.08 L 456.80 144.48" />
+<text class="panel-title" x="505.00" y="47.00">(b) 20NG · Judgment budget</text>
+<line class="grid" x1="505.00" y1="198.00" x2="882.00" y2="198.00" />
+<line class="grid" x1="505.00" y1="163.00" x2="882.00" y2="163.00" />
+<line class="zero-line" x1="505.00" y1="128.00" x2="882.00" y2="128.00" />
+<line class="grid" x1="505.00" y1="93.00" x2="882.00" y2="93.00" />
+<line class="grid" x1="505.00" y1="58.00" x2="882.00" y2="58.00" />
+<line class="axis" x1="505.00" y1="58.00" x2="505.00" y2="198.00" />
+<line class="axis" x1="505.00" y1="198.00" x2="882.00" y2="198.00" />
+<line class="tick" x1="505.00" y1="198.00" x2="505.00" y2="202.00" />
+<text class="tick-label" x="505.00" y="216.00" text-anchor="middle">0%</text>
+<line class="tick" x1="599.25" y1="198.00" x2="599.25" y2="202.00" />
+<text class="tick-label" x="599.25" y="216.00" text-anchor="middle">25%</text>
+<line class="tick" x1="693.50" y1="198.00" x2="693.50" y2="202.00" />
+<text class="tick-label" x="693.50" y="216.00" text-anchor="middle">50%</text>
+<line class="tick" x1="787.75" y1="198.00" x2="787.75" y2="202.00" />
+<text class="tick-label" x="787.75" y="216.00" text-anchor="middle">75%</text>
+<line class="tick" x1="882.00" y1="198.00" x2="882.00" y2="202.00" />
+<text class="tick-label" x="882.00" y="216.00" text-anchor="middle">100%</text>
+<line class="baseline-guide" x1="882.00" y1="58.00" x2="882.00" y2="198.00" />
+<polyline class="curve series-1" points="505.00,129.18 599.25,128.44 693.50,132.92 787.75,135.20 882.00,128.00" />
+<circle class="mark series-1" cx="505.00" cy="129.18" r="3.6" />
+<circle class="mark series-1" cx="599.25" cy="128.44" r="3.6" />
+<circle class="mark series-1" cx="693.50" cy="132.92" r="3.6" />
+<circle class="mark series-1" cx="787.75" cy="135.20" r="3.6" />
+<circle class="mark series-1 baseline-mark" cx="882.00" cy="128.00" r="3.6" />
+<polyline class="curve series-2" points="505.00,179.34 599.25,167.03 693.50,157.16 787.75,136.83 882.00,128.00" />
+<rect class="mark series-2" x="501.40" y="175.74" width="7.2" height="7.2" />
+<rect class="mark series-2" x="595.65" y="163.43" width="7.2" height="7.2" />
+<rect class="mark series-2" x="689.90" y="153.56" width="7.2" height="7.2" />
+<rect class="mark series-2" x="784.15" y="133.23" width="7.2" height="7.2" />
+<rect class="mark series-2 baseline-mark" x="878.40" y="124.40" width="7.2" height="7.2" />
+<polyline class="curve series-3" points="505.00,181.31 599.25,164.00 693.50,148.68 787.75,134.18 882.00,128.00" />
+<polygon class="mark series-3" points="505.00,177.11 501.00,184.71 509.00,184.71" />
+<polygon class="mark series-3" points="599.25,159.80 595.25,167.40 603.25,167.40" />
+<polygon class="mark series-3" points="693.50,144.48 689.50,152.08 697.50,152.08" />
+<polygon class="mark series-3" points="787.75,129.98 783.75,137.58 791.75,137.58" />
+<polygon class="mark series-3 baseline-mark" points="882.00,123.80 878.00,131.40 886.00,131.40" />
+<polyline class="curve series-4" points="505.00,177.03 599.25,150.77 693.50,138.46 787.75,138.68 882.00,128.00" />
+<polygon class="mark series-4" points="505.00,172.73 500.70,177.03 505.00,181.33 509.30,177.03" />
+<polygon class="mark series-4" points="599.25,146.47 594.95,150.77 599.25,155.07 603.55,150.77" />
+<polygon class="mark series-4" points="693.50,134.16 689.20,138.46 693.50,142.76 697.80,138.46" />
+<polygon class="mark series-4" points="787.75,134.38 783.45,138.68 787.75,142.98 792.05,138.68" />
+<polygon class="mark series-4 baseline-mark" points="882.00,123.70 877.70,128.00 882.00,132.30 886.30,128.00" />
+<polyline class="curve series-5" points="505.00,157.16 599.25,144.55 693.50,132.91 787.75,137.26 882.00,128.00" />
+<path class="mark series-5" fill="none" d="M 501.20 153.36 L 508.80 160.96 M 501.20 160.96 L 508.80 153.36" />
+<path class="mark series-5" fill="none" d="M 595.45 140.75 L 603.05 148.35 M 595.45 148.35 L 603.05 140.75" />
+<path class="mark series-5" fill="none" d="M 689.70 129.11 L 697.30 136.71 M 689.70 136.71 L 697.30 129.11" />
+<path class="mark series-5" fill="none" d="M 783.95 133.46 L 791.55 141.06 M 783.95 141.06 L 791.55 133.46" />
+<path class="mark series-5 baseline-mark" fill="none" d="M 878.20 124.20 L 885.80 131.80 M 878.20 131.80 L 885.80 124.20" />
+<text class="axis-label" x="16" y="340.00" transform="rotate(-90 16 340.00)" text-anchor="middle">Δ score ×100</text>
+<text class="panel-title" x="76.00" y="259.00">(c) NYT · LLM anchor weight</text>
+<line class="grid" x1="76.00" y1="410.00" x2="453.00" y2="410.00" />
+<text class="tick-label" x="69.00" y="414.50" text-anchor="end">-20.0</text>
+<line class="grid" x1="76.00" y1="375.00" x2="453.00" y2="375.00" />
+<text class="tick-label" x="69.00" y="379.50" text-anchor="end">-10.0</text>
+<line class="zero-line" x1="76.00" y1="340.00" x2="453.00" y2="340.00" />
+<text class="tick-label" x="69.00" y="344.50" text-anchor="end">0</text>
+<line class="grid" x1="76.00" y1="305.00" x2="453.00" y2="305.00" />
+<text class="tick-label" x="69.00" y="309.50" text-anchor="end">+10.0</text>
+<line class="grid" x1="76.00" y1="270.00" x2="453.00" y2="270.00" />
+<text class="tick-label" x="69.00" y="274.50" text-anchor="end">+20.0</text>
+<line class="axis" x1="76.00" y1="270.00" x2="76.00" y2="410.00" />
+<line class="axis" x1="76.00" y1="410.00" x2="453.00" y2="410.00" />
+<line class="tick" x1="76.00" y1="410.00" x2="76.00" y2="414.00" />
+<text class="tick-label" x="76.00" y="428.00" text-anchor="middle">0.50</text>
+<line class="tick" x1="226.80" y1="410.00" x2="226.80" y2="414.00" />
+<text class="tick-label" x="226.80" y="428.00" text-anchor="middle">0.70</text>
+<line class="tick" x1="377.60" y1="410.00" x2="377.60" y2="414.00" />
+<text class="tick-label" x="377.60" y="428.00" text-anchor="middle">0.90</text>
+<line class="tick" x1="453.00" y1="410.00" x2="453.00" y2="414.00" />
+<text class="tick-label" x="453.00" y="428.00" text-anchor="middle">1.00</text>
+<line class="baseline-guide" x1="377.60" y1="270.00" x2="377.60" y2="410.00" />
+<polyline class="curve series-1" points="76.00,340.95 226.80,341.58 377.60,340.00 453.00,341.88" />
+<circle class="mark series-1" cx="76.00" cy="340.95" r="3.6" />
+<circle class="mark series-1" cx="226.80" cy="341.58" r="3.6" />
+<circle class="mark series-1 baseline-mark" cx="377.60" cy="340.00" r="3.6" />
+<circle class="mark series-1" cx="453.00" cy="341.88" r="3.6" />
+<polyline class="curve series-2" points="76.00,343.05 226.80,340.10 377.60,340.00 453.00,340.38" />
+<rect class="mark series-2" x="72.40" y="339.45" width="7.2" height="7.2" />
+<rect class="mark series-2" x="223.20" y="336.50" width="7.2" height="7.2" />
+<rect class="mark series-2 baseline-mark" x="374.00" y="336.40" width="7.2" height="7.2" />
+<rect class="mark series-2" x="449.40" y="336.78" width="7.2" height="7.2" />
+<polyline class="curve series-3" points="76.00,343.58 226.80,340.90 377.60,340.00 453.00,342.16" />
+<polygon class="mark series-3" points="76.00,339.38 72.00,346.98 80.00,346.98" />
+<polygon class="mark series-3" points="226.80,336.70 222.80,344.30 230.80,344.30" />
+<polygon class="mark series-3 baseline-mark" points="377.60,335.80 373.60,343.40 381.60,343.40" />
+<polygon class="mark series-3" points="453.00,337.96 449.00,345.56 457.00,345.56" />
+<polyline class="curve series-4" points="76.00,344.10 226.80,342.87 377.60,340.00 453.00,342.46" />
+<polygon class="mark series-4" points="76.00,339.80 71.70,344.10 76.00,348.40 80.30,344.10" />
+<polygon class="mark series-4" points="226.80,338.57 222.50,342.87 226.80,347.17 231.10,342.87" />
+<polygon class="mark series-4 baseline-mark" points="377.60,335.70 373.30,340.00 377.60,344.30 381.90,340.00" />
+<polygon class="mark series-4" points="453.00,338.16 448.70,342.46 453.00,346.76 457.30,342.46" />
+<polyline class="curve series-5" points="76.00,348.19 226.80,345.66 377.60,340.00 453.00,341.01" />
+<path class="mark series-5" fill="none" d="M 72.20 344.39 L 79.80 351.99 M 72.20 351.99 L 79.80 344.39" />
+<path class="mark series-5" fill="none" d="M 223.00 341.86 L 230.60 349.46 M 223.00 349.46 L 230.60 341.86" />
+<path class="mark series-5 baseline-mark" fill="none" d="M 373.80 336.20 L 381.40 343.80 M 373.80 343.80 L 381.40 336.20" />
+<path class="mark series-5" fill="none" d="M 449.20 337.21 L 456.80 344.81 M 449.20 344.81 L 456.80 337.21" />
+<text class="panel-title" x="505.00" y="259.00">(d) NYT · Judgment budget</text>
+<line class="grid" x1="505.00" y1="410.00" x2="882.00" y2="410.00" />
+<line class="grid" x1="505.00" y1="375.00" x2="882.00" y2="375.00" />
+<line class="zero-line" x1="505.00" y1="340.00" x2="882.00" y2="340.00" />
+<line class="grid" x1="505.00" y1="305.00" x2="882.00" y2="305.00" />
+<line class="grid" x1="505.00" y1="270.00" x2="882.00" y2="270.00" />
+<line class="axis" x1="505.00" y1="270.00" x2="505.00" y2="410.00" />
+<line class="axis" x1="505.00" y1="410.00" x2="882.00" y2="410.00" />
+<line class="tick" x1="505.00" y1="410.00" x2="505.00" y2="414.00" />
+<text class="tick-label" x="505.00" y="428.00" text-anchor="middle">0%</text>
+<line class="tick" x1="599.25" y1="410.00" x2="599.25" y2="414.00" />
+<text class="tick-label" x="599.25" y="428.00" text-anchor="middle">25%</text>
+<line class="tick" x1="693.50" y1="410.00" x2="693.50" y2="414.00" />
+<text class="tick-label" x="693.50" y="428.00" text-anchor="middle">50%</text>
+<line class="tick" x1="787.75" y1="410.00" x2="787.75" y2="414.00" />
+<text class="tick-label" x="787.75" y="428.00" text-anchor="middle">75%</text>
+<line class="tick" x1="882.00" y1="410.00" x2="882.00" y2="414.00" />
+<text class="tick-label" x="882.00" y="428.00" text-anchor="middle">100%</text>
+<line class="baseline-guide" x1="882.00" y1="270.00" x2="882.00" y2="410.00" />
+<polyline class="curve series-1" points="505.00,341.29 599.25,341.51 693.50,342.89 787.75,342.36 882.00,340.00" />
+<circle class="mark series-1" cx="505.00" cy="341.29" r="3.6" />
+<circle class="mark series-1" cx="599.25" cy="341.51" r="3.6" />
+<circle class="mark series-1" cx="693.50" cy="342.89" r="3.6" />
+<circle class="mark series-1" cx="787.75" cy="342.36" r="3.6" />
+<circle class="mark series-1 baseline-mark" cx="882.00" cy="340.00" r="3.6" />
+<polyline class="curve series-2" points="505.00,348.37 599.25,347.60 693.50,340.76 787.75,340.00 882.00,340.00" />
+<rect class="mark series-2" x="501.40" y="344.76" width="7.2" height="7.2" />
+<rect class="mark series-2" x="595.65" y="344.00" width="7.2" height="7.2" />
+<rect class="mark series-2" x="689.90" y="337.16" width="7.2" height="7.2" />
+<rect class="mark series-2" x="784.15" y="336.40" width="7.2" height="7.2" />
+<rect class="mark series-2 baseline-mark" x="878.40" y="336.40" width="7.2" height="7.2" />
+<polyline class="curve series-3" points="505.00,349.90 599.25,347.14 693.50,340.02 787.75,340.11 882.00,340.00" />
+<polygon class="mark series-3" points="505.00,345.70 501.00,353.30 509.00,353.30" />
+<polygon class="mark series-3" points="599.25,342.94 595.25,350.54 603.25,350.54" />
+<polygon class="mark series-3" points="693.50,335.82 689.50,343.42 697.50,343.42" />
+<polygon class="mark series-3" points="787.75,335.91 783.75,343.51 791.75,343.51" />
+<polygon class="mark series-3 baseline-mark" points="882.00,335.80 878.00,343.40 886.00,343.40" />
+<polyline class="curve series-4" points="505.00,362.57 599.25,362.16 693.50,348.21 787.75,340.82 882.00,340.00" />
+<polygon class="mark series-4" points="505.00,358.27 500.70,362.57 505.00,366.87 509.30,362.57" />
+<polygon class="mark series-4" points="599.25,357.86 594.95,362.16 599.25,366.46 603.55,362.16" />
+<polygon class="mark series-4" points="693.50,343.91 689.20,348.21 693.50,352.51 697.80,348.21" />
+<polygon class="mark series-4" points="787.75,336.52 783.45,340.82 787.75,345.12 792.05,340.82" />
+<polygon class="mark series-4 baseline-mark" points="882.00,335.70 877.70,340.00 882.00,344.30 886.30,340.00" />
+<polyline class="curve series-5" points="505.00,408.64 599.25,381.97 693.50,354.35 787.75,340.45 882.00,340.00" />
+<path class="mark series-5" fill="none" d="M 501.20 404.84 L 508.80 412.44 M 501.20 412.44 L 508.80 404.84" />
+<path class="mark series-5" fill="none" d="M 595.45 378.17 L 603.05 385.77 M 595.45 385.77 L 603.05 378.17" />
+<path class="mark series-5" fill="none" d="M 689.70 350.55 L 697.30 358.15 M 689.70 358.15 L 697.30 350.55" />
+<path class="mark series-5" fill="none" d="M 783.95 336.65 L 791.55 344.25 M 783.95 344.25 L 791.55 336.65" />
+<path class="mark series-5 baseline-mark" fill="none" d="M 878.20 336.20 L 885.80 343.80 M 878.20 343.80 L 885.80 336.20" />
+</svg>
